@@ -1,2 +1,1 @@
-# nbt
-nautilus batch test
+# run-on-nautilus
