@@ -1,0 +1,1778 @@
+BLASTP 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: mouse.1.protein.faa
+           11,672 sequences; 8,844,069 total letters
+
+
+
+Query= NP_001006011.1 pleckstrin homology-like domain family A member 1
+[Danio rerio]
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  XP_006515111.1 PREDICTED: arf-GAP with SH3 domain, ANK repeat a...  31.2    0.13 
+  XP_006515113.1 PREDICTED: arf-GAP with SH3 domain, ANK repeat a...  31.2    0.14 
+  XP_006515110.1 PREDICTED: arf-GAP with SH3 domain, ANK repeat a...  30.8    0.22 
+  NP_081277.1 uncharacterized protein LOC69239 [Mus musculus]         26.6    5.1  
+  XP_017169348.1 PREDICTED: proto-oncogene tyrosine-protein kinas...  26.2    7.7  
+  XP_017169347.1 PREDICTED: proto-oncogene tyrosine-protein kinas...  26.2    7.8  
+  XP_017169346.1 PREDICTED: proto-oncogene tyrosine-protein kinas...  26.2    7.8  
+  XP_017169345.1 PREDICTED: proto-oncogene tyrosine-protein kinas...  26.2    7.8  
+  XP_017169344.1 PREDICTED: proto-oncogene tyrosine-protein kinas...  26.2    7.8  
+  XP_011241449.1 PREDICTED: proto-oncogene tyrosine-protein kinas...  26.2    7.8  
+
+
+> XP_006515111.1 PREDICTED: arf-GAP with SH3 domain, ANK repeat 
+and PH domain-containing protein 2 isoform X2 [Mus musculus]
+Length=1000
+
+ Score = 31.2 bits (69),  Expect = 0.13, Method: Composition-based stats.
+ Identities = 11/26 (42%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+
+Query  3    ESGVLKEGALEKRSDGLLQLWKKKRC  28
+            E G  + G L K+SDG+ ++W+K++C
+Sbjct  303  EHGTERNGNLYKKSDGIRKVWQKRKC  328
+
+
+> XP_006515113.1 PREDICTED: arf-GAP with SH3 domain, ANK repeat 
+and PH domain-containing protein 2 isoform X3 [Mus musculus]
+Length=885
+
+ Score = 31.2 bits (69),  Expect = 0.14, Method: Composition-based stats.
+ Identities = 11/26 (42%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+
+Query  3    ESGVLKEGALEKRSDGLLQLWKKKRC  28
+            E G  + G L K+SDG+ ++W+K++C
+Sbjct  188  EHGTERNGNLYKKSDGIRKVWQKRKC  213
+
+
+> XP_006515110.1 PREDICTED: arf-GAP with SH3 domain, ANK repeat 
+and PH domain-containing protein 2 isoform X1 [Mus musculus]
+Length=1003
+
+ Score = 30.8 bits (68),  Expect = 0.22, Method: Compositional matrix adjust.
+ Identities = 12/35 (34%), Positives = 22/35 (63%), Gaps = 0/35 (0%)
+
+Query  3    ESGVLKEGALEKRSDGLLQLWKKKRCVLTEDGLVL  37
+            E G  + G L K+SDG+ ++W+K++C +    L +
+Sbjct  306  EHGTERNGNLYKKSDGIRKVWQKRKCSVKNGFLTI  340
+
+
+> NP_081277.1 uncharacterized protein LOC69239 [Mus musculus]
+Length=1238
+
+ Score = 26.6 bits (57),  Expect = 5.1, Method: Composition-based stats.
+ Identities = 17/63 (27%), Positives = 24/63 (38%), Gaps = 3/63 (5%)
+
+Query  10   GALEKRSDGLLQLWKKKRCVLTEDGLVLHPHKHHHQHQHQQQ---HDTGCKVKELHFANM  66
+            G L K   G L+    + C       + HP     ++QHQ     HD  C V  +   N 
+Sbjct  252  GKLTKHRRGPLKHTTDEPCESASQPGINHPENQRLENQHQSSDAFHDAPCSVNAVQKENS  311
+
+Query  67   KTV  69
+             T+
+Sbjct  312  DTI  314
+
+
+> XP_017169348.1 PREDICTED: proto-oncogene tyrosine-protein kinase 
+ROS isoform X6 [Mus musculus]
+Length=1553
+
+ Score = 26.2 bits (56),  Expect = 7.7, Method: Composition-based stats.
+ Identities = 14/48 (29%), Positives = 20/48 (42%), Gaps = 3/48 (6%)
+
+Query  38    HPHKHHHQHQHQQQH---DTGCKVKELHFANMKTVDCVERKGKYVYFT  82
+             H  +H  Q +   QH      C V E   +   TVD  +    ++YFT
+Sbjct  1303  HTSQHVLQPKASNQHGRSQCSCNVTESELSGAMTVDTSDPDRPWIYFT  1350
+
+
+> XP_017169347.1 PREDICTED: proto-oncogene tyrosine-protein kinase 
+ROS isoform X5 [Mus musculus]
+Length=2153
+
+ Score = 26.2 bits (56),  Expect = 7.8, Method: Composition-based stats.
+ Identities = 14/48 (29%), Positives = 20/48 (42%), Gaps = 3/48 (6%)
+
+Query  38    HPHKHHHQHQHQQQH---DTGCKVKELHFANMKTVDCVERKGKYVYFT  82
+             H  +H  Q +   QH      C V E   +   TVD  +    ++YFT
+Sbjct  1115  HTSQHVLQPKASNQHGRSQCSCNVTESELSGAMTVDTSDPDRPWIYFT  1162
+
+
+> XP_017169346.1 PREDICTED: proto-oncogene tyrosine-protein kinase 
+ROS isoform X4 [Mus musculus]
+Length=2160
+
+ Score = 26.2 bits (56),  Expect = 7.8, Method: Composition-based stats.
+ Identities = 14/48 (29%), Positives = 20/48 (42%), Gaps = 3/48 (6%)
+
+Query  38    HPHKHHHQHQHQQQH---DTGCKVKELHFANMKTVDCVERKGKYVYFT  82
+             H  +H  Q +   QH      C V E   +   TVD  +    ++YFT
+Sbjct  1303  HTSQHVLQPKASNQHGRSQCSCNVTESELSGAMTVDTSDPDRPWIYFT  1350
+
+
+> XP_017169345.1 PREDICTED: proto-oncogene tyrosine-protein kinase 
+ROS isoform X3 [Mus musculus]
+Length=2184
+
+ Score = 26.2 bits (56),  Expect = 7.8, Method: Composition-based stats.
+ Identities = 14/48 (29%), Positives = 20/48 (42%), Gaps = 3/48 (6%)
+
+Query  38    HPHKHHHQHQHQQQH---DTGCKVKELHFANMKTVDCVERKGKYVYFT  82
+             H  +H  Q +   QH      C V E   +   TVD  +    ++YFT
+Sbjct  1303  HTSQHVLQPKASNQHGRSQCSCNVTESELSGAMTVDTSDPDRPWIYFT  1350
+
+
+> XP_017169344.1 PREDICTED: proto-oncogene tyrosine-protein kinase 
+ROS isoform X2 [Mus musculus]
+Length=2215
+
+ Score = 26.2 bits (56),  Expect = 7.8, Method: Composition-based stats.
+ Identities = 14/48 (29%), Positives = 20/48 (42%), Gaps = 3/48 (6%)
+
+Query  38    HPHKHHHQHQHQQQH---DTGCKVKELHFANMKTVDCVERKGKYVYFT  82
+             H  +H  Q +   QH      C V E   +   TVD  +    ++YFT
+Sbjct  1303  HTSQHVLQPKASNQHGRSQCSCNVTESELSGAMTVDTSDPDRPWIYFT  1350
+
+
+> XP_011241449.1 PREDICTED: proto-oncogene tyrosine-protein kinase 
+ROS isoform X1 [Mus musculus]
+Length=2341
+
+ Score = 26.2 bits (56),  Expect = 7.8, Method: Composition-based stats.
+ Identities = 14/48 (29%), Positives = 20/48 (42%), Gaps = 3/48 (6%)
+
+Query  38    HPHKHHHQHQHQQQH---DTGCKVKELHFANMKTVDCVERKGKYVYFT  82
+             H  +H  Q +   QH      C V E   +   TVD  +    ++YFT
+Sbjct  1303  HTSQHVLQPKASNQHGRSQCSCNVTESELSGAMTVDTSDPDRPWIYFT  1350
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.132    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 437748248
+
+
+Query= NP_001076269.1 leucine-rich repeat-containing protein 30 [Danio
+rerio]
+
+Length=161
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  NP_001104610.1 leucine-rich repeat-containing protein 10B [Mus ...  52.4    8e-09
+  XP_011246338.1 PREDICTED: leucine-rich repeat-containing G-prot...  50.1    7e-08
+  XP_017176769.1 PREDICTED: leucine-rich repeat-containing G-prot...  48.1    3e-07
+  XP_006529777.1 PREDICTED: leucine-rich repeat-containing G-prot...  45.8    2e-06
+  XP_006532295.1 PREDICTED: platelet glycoprotein Ib alpha chain ...  45.4    3e-06
+  XP_006513535.1 PREDICTED: leucine-rich repeat-containing protei...  40.8    2e-05
+  NP_001074875.1 leucine-rich repeat protein 1 [Mus musculus]         42.0    4e-05
+  XP_017169373.1 PREDICTED: leucine-rich repeat-containing protei...  40.4    4e-05
+  XP_006532005.1 PREDICTED: CCR4-NOT transcription complex subuni...  38.5    6e-04
+  XP_011246967.1 PREDICTED: CCR4-NOT transcription complex subuni...  38.5    6e-04
+  XP_006532004.1 PREDICTED: CCR4-NOT transcription complex subuni...  38.5    6e-04
+  XP_006532003.1 PREDICTED: CCR4-NOT transcription complex subuni...  38.5    6e-04
+  NP_001106850.1 leucine-rich repeat-containing protein 32 precur...  37.7    0.001
+  XP_011241897.1 PREDICTED: leucine-rich repeat and IQ domain-con...  37.7    0.001
+  XP_011241895.1 PREDICTED: leucine-rich repeat and IQ domain-con...  37.7    0.001
+  XP_011241894.1 PREDICTED: leucine-rich repeat and IQ domain-con...  37.7    0.001
+  XP_011241898.1 PREDICTED: leucine-rich repeat and IQ domain-con...  37.4    0.002
+  XP_006514319.1 PREDICTED: leucine-rich repeat and IQ domain-con...  37.4    0.002
+  XP_011241896.1 PREDICTED: leucine-rich repeat and IQ domain-con...  37.4    0.002
+  XP_006514322.1 PREDICTED: leucine-rich repeat and IQ domain-con...  37.4    0.002
+  XP_017177193.1 PREDICTED: toll-like receptor 5 isoform X1 [Mus ...  33.5    0.029
+  XP_017177192.1 PREDICTED: toll-like receptor 5 isoform X1 [Mus ...  33.5    0.029
+  XP_017177191.1 PREDICTED: toll-like receptor 5 isoform X1 [Mus ...  33.5    0.029
+  XP_017177190.1 PREDICTED: toll-like receptor 5 isoform X1 [Mus ...  33.5    0.029
+  XP_017177189.1 PREDICTED: toll-like receptor 5 isoform X1 [Mus ...  33.5    0.029
+  XP_017177188.1 PREDICTED: toll-like receptor 5 isoform X1 [Mus ...  33.5    0.029
+  XP_017177187.1 PREDICTED: toll-like receptor 5 isoform X1 [Mus ...  33.5    0.029
+  XP_017177186.1 PREDICTED: toll-like receptor 5 isoform X1 [Mus ...  33.5    0.029
+  XP_006529148.1 PREDICTED: prolargin isoform X2 [Mus musculus]       30.0    0.43 
+  XP_006529147.1 PREDICTED: prolargin isoform X2 [Mus musculus]       30.0    0.43 
+  XP_006529146.1 PREDICTED: prolargin isoform X1 [Mus musculus]       30.0    0.43 
+  XP_006514823.1 PREDICTED: hemoglobin subunit theta-1 isoform X1...  28.5    0.69 
+  XP_006513686.1 PREDICTED: leucine-rich repeat and immunoglobuli...  29.3    0.82 
+  XP_006513685.1 PREDICTED: leucine-rich repeat and immunoglobuli...  29.3    0.82 
+  XP_006513684.1 PREDICTED: leucine-rich repeat and immunoglobuli...  29.3    0.82 
+  XP_006513683.1 PREDICTED: leucine-rich repeat and immunoglobuli...  29.3    0.82 
+  XP_006512881.1 PREDICTED: nephrocan isoform X1 [Mus musculus]       29.3    0.86 
+  XP_006512882.1 PREDICTED: nephrocan isoform X2 [Mus musculus]       28.5    1.3  
+  NP_001029153.1 hemoglobin subunit theta-1 [Mus musculus]            28.1    1.3  
+  XP_006515433.1 PREDICTED: dynein light chain 1, axonemal isofor...  27.3    2.5  
+  XP_006529724.1 PREDICTED: opticin isoform X2 [Mus musculus]         27.3    3.0  
+  XP_006529723.1 PREDICTED: opticin isoform X2 [Mus musculus]         27.3    3.0  
+
+
+> NP_001104610.1 leucine-rich repeat-containing protein 10B [Mus 
+musculus]
+Length=292
+
+ Score = 52.4 bits (124),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 36/141 (26%), Positives = 62/141 (44%), Gaps = 10/141 (7%)
+
+Query  4    KLEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNLEN  63
+            +L  L L  N L  LP   + L  L+ L +  N +   P  +  +  L  LQ+  N L  
+Sbjct  91   RLTRLYLGGNRLLALPPDFAQLQSLRCLWIEGNFLRRFPRPLLRLVALQSLQMGDNRLRA  150
+
+Query  64   IADQIQALTDLKILIVEGNCIHSLPKMLCCLTKLELLNVDFNDIQNVPAEMHKLKRLEKL  123
+            +  ++  +T L+ L + GN     P  L  + +L +L++D N +   P ++H L+ L   
+Sbjct  151  LPAELPRMTGLRGLWLYGNRFEEFPPALLRMGRLHILDLDRNRLGGFP-DLHPLRALRVF  209
+
+Query  124  ACHPLDKGLHIMHNPLLKPIK  144
+            +           HNP+  P +
+Sbjct  210  SYD---------HNPVTGPPR  221
+
+
+ Score = 43.9 bits (102),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 36/147 (24%), Positives = 61/147 (41%), Gaps = 23/147 (16%)
+
+Query  3    SKLEVLSLANNHLTGLPASLSALVGLKKLNLS-----------------------HNNIT  39
+            S  + L L+   L  LP+++ AL  L+KL +S                        N + 
+Sbjct  21   SGEQQLELSGRRLRRLPSAVCALSRLQKLYVSGTGLRELPEEIEELRELRILALDFNKLE  80
+
+Query  40   HIPGCVYTMRNLVFLQLACNNLENIADQIQALTDLKILIVEGNCIHSLPKMLCCLTKLEL  99
+             +P  +  +  L  L L  N L  +      L  L+ L +EGN +   P+ L  L  L+ 
+Sbjct  81   RLPDGLCRLPRLTRLYLGGNRLLALPPDFAQLQSLRCLWIEGNFLRRFPRPLLRLVALQS  140
+
+Query  100  LNVDFNDIQNVPAEMHKLKRLEKLACH  126
+            L +  N ++ +PAE+ ++  L  L  +
+Sbjct  141  LQMGDNRLRALPAELPRMTGLRGLWLY  167
+
+
+> XP_011246338.1 PREDICTED: leucine-rich repeat-containing G-protein 
+coupled receptor 6 isoform X3 [Mus musculus]
+Length=893
+
+ Score = 50.1 bits (118),  Expect = 7e-08, Method: Composition-based stats.
+ Identities = 52/180 (29%), Positives = 76/180 (42%), Gaps = 47/180 (26%)
+
+Query  5    LEVLSLANNHLTGLPA-------------------------SLSALVGLKKLNLSHNNIT  39
+            L++L L +N L G+PA                         S   L  L+ L L  N +T
+Sbjct  42   LKILMLQSNQLRGIPAEALWELPSLQSLRLDANLISLVPERSFEGLSSLRHLWLDDNALT  101
+
+Query  40   HIPGCVYTMRNLVFLQ---LACNNLENIAD-QIQALTDLKILIVEGNCI-HSLPKMLCCL  94
+             IP  V  + NL  LQ   LA N++ +I D   Q LT L +L +  N I H        L
+Sbjct  102  EIP--VRALNNLPALQAMTLALNHIRHIPDYAFQNLTSLVVLHLHNNRIQHVGTHSFEGL  159
+
+Query  95   TKLELLNVDFNDIQNVPAEMHKLKRLEKLACH---------------PLDKGLHIMHNPL  139
+              LE L++++N++Q  P  +  L RL++L  H               PL + +H   NP+
+Sbjct  160  HNLETLDLNYNELQEFPLAIRTLGRLQELGFHNNNIKAIPEKAFMGSPLLQTIHFYDNPI  219
+
+
+ Score = 40.0 bits (92),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 42/130 (32%), Positives = 64/130 (49%), Gaps = 7/130 (5%)
+
+Query  13   NHLTGL-PASLSALVGLKKLNLSHNNITHIPGCVYT-MRNLVFLQLACNNLENI-ADQIQ  69
+            N+LT L P     L  L++L LS N+++HIPG  ++ + +L  L L  N L  I A+ + 
+Sbjct  2    NNLTELQPGLFHHLRFLEELRLSGNHLSHIPGQAFSGLHSLKILMLQSNQLRGIPAEALW  61
+
+Query  70   ALTDLKILIVEGNCIHSLP-KMLCCLTKLELLNVDFNDIQNVPAEMHKLKRLEKLACHPL  128
+             L  L+ L ++ N I  +P +    L+ L  L +D N +  +P  +  L  L  L    L
+Sbjct  62   ELPSLQSLRLDANLISLVPERSFEGLSSLRHLWLDDNALTEIP--VRALNNLPALQAMTL  119
+
+Query  129  DKGLHIMHNP  138
+                HI H P
+Sbjct  120  ALN-HIRHIP  128
+
+
+> XP_017176769.1 PREDICTED: leucine-rich repeat-containing G-protein 
+coupled receptor 6 isoform X2 [Mus musculus]
+Length=895
+
+ Score = 48.1 bits (113),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 52/181 (29%), Positives = 76/181 (42%), Gaps = 47/181 (26%)
+
+Query  4    KLEVLSLANNHLTGLPA-------------------------SLSALVGLKKLNLSHNNI  38
+             L++L L +N L G+PA                         S   L  L+ L L  N +
+Sbjct  115  SLKILMLQSNQLRGIPAEALWELPSLQSLRLDANLISLVPERSFEGLSSLRHLWLDDNAL  174
+
+Query  39   THIPGCVYTMRNLVFLQ---LACNNLENIAD-QIQALTDLKILIVEGNCI-HSLPKMLCC  93
+            T IP  V  + NL  LQ   LA N++ +I D   Q LT L +L +  N I H        
+Sbjct  175  TEIP--VRALNNLPALQAMTLALNHIRHIPDYAFQNLTSLVVLHLHNNRIQHVGTHSFEG  232
+
+Query  94   LTKLELLNVDFNDIQNVPAEMHKLKRLEKLACH---------------PLDKGLHIMHNP  138
+            L  LE L++++N++Q  P  +  L RL++L  H               PL + +H   NP
+Sbjct  233  LHNLETLDLNYNELQEFPLAIRTLGRLQELGFHNNNIKAIPEKAFMGSPLLQTIHFYDNP  292
+
+Query  139  L  139
+            +
+Sbjct  293  I  293
+
+
+ Score = 41.6 bits (96),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 36/108 (33%), Positives = 58/108 (54%), Gaps = 4/108 (4%)
+
+Query  8    LSLANNHLTGL-PASLSALVGLKKLNLSHNNITHIPGCVYT-MRNLVFLQLACNNLENI-  64
+            L L+ N+LT L P     L  L++L LS N+++HIPG  ++ + +L  L L  N L  I 
+Sbjct  71   LDLSMNNLTELQPGLFHHLRFLEELRLSGNHLSHIPGQAFSGLHSLKILMLQSNQLRGIP  130
+
+Query  65   ADQIQALTDLKILIVEGNCIHSLP-KMLCCLTKLELLNVDFNDIQNVP  111
+            A+ +  L  L+ L ++ N I  +P +    L+ L  L +D N +  +P
+Sbjct  131  AEALWELPSLQSLRLDANLISLVPERSFEGLSSLRHLWLDDNALTEIP  178
+
+
+> XP_006529777.1 PREDICTED: leucine-rich repeat-containing G-protein 
+coupled receptor 6 isoform X1 [Mus musculus]
+Length=943
+
+ Score = 45.8 bits (107),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 44/154 (29%), Positives = 73/154 (47%), Gaps = 19/154 (12%)
+
+Query  5    LEVLSLANNHLTGLPA-SLSALVGLKKLNLSHNNITHIPGCVYT-MRNLVFLQLACNNLE  62
+            L++L L +N L G+PA +L  L  L+ L L  N I+ +P   +  + +L  L L  N L 
+Sbjct  116  LKILMLQSNQLRGIPAEALWELPSLQSLRLDANLISLVPERSFEGLSSLRHLWLDDNALT  175
+
+Query  63   NI-ADQIQALTDLKILIVEGNCIHSLPK-MLCCLTKLELLNVDFNDIQNVPAEMHKLKRL  120
+             I    +  L  L+ + +  N I  +P      LT L +L++++N++Q  P  +  L RL
+Sbjct  176  EIPVRALNNLPALQAMTLALNHIRHIPDYAFQNLTSLVVLDLNYNELQEFPLAIRTLGRL  235
+
+Query  121  EKLACH---------------PLDKGLHIMHNPL  139
+            ++L  H               PL + +H   NP+
+Sbjct  236  QELGFHNNNIKAIPEKAFMGSPLLQTIHFYDNPI  269
+
+
+ Score = 42.7 bits (99),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 44/135 (33%), Positives = 67/135 (50%), Gaps = 7/135 (5%)
+
+Query  8    LSLANNHLTGL-PASLSALVGLKKLNLSHNNITHIPGCVYT-MRNLVFLQLACNNLENI-  64
+            L L+ N+LT L P     L  L++L LS N+++HIPG  ++ + +L  L L  N L  I 
+Sbjct  71   LDLSMNNLTELQPGLFHHLRFLEELRLSGNHLSHIPGQAFSGLHSLKILMLQSNQLRGIP  130
+
+Query  65   ADQIQALTDLKILIVEGNCIHSLP-KMLCCLTKLELLNVDFNDIQNVPAEMHKLKRLEKL  123
+            A+ +  L  L+ L ++ N I  +P +    L+ L  L +D N +  +P  +  L  L  L
+Sbjct  131  AEALWELPSLQSLRLDANLISLVPERSFEGLSSLRHLWLDDNALTEIP--VRALNNLPAL  188
+
+Query  124  ACHPLDKGLHIMHNP  138
+                L    HI H P
+Sbjct  189  QAMTLALN-HIRHIP  202
+
+
+> XP_006532295.1 PREDICTED: platelet glycoprotein Ib alpha chain 
+isoform X1 [Mus musculus]
+Length=734
+
+ Score = 45.4 bits (106),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 38/123 (31%), Positives = 66/123 (54%), Gaps = 5/123 (4%)
+
+Query  3    SKLEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNLE  62
+            + L  L L    LT L  +   L+ L+ L+LSHNN+  +P   + +  L  L ++ N L 
+Sbjct  71   THLTYLYLDRCELTSLQTN-GKLIKLENLDLSHNNLKSLPSLGWALPALTTLDVSFNKLG  129
+
+Query  63   NIADQI-QALTDLKILIVEGNCIHSLPK-MLCCLTKLELLNVDFNDIQNVPAEMHKLKRL  120
+            +++  +   L+ L+ L ++ N + SLP  +L   TKL+ LN+  N ++ +P+ +  L  L
+Sbjct  130  SLSPGVLDGLSQLQELYLQNNDLKSLPPGLLLPTTKLKKLNLANNKLRELPSGL--LDGL  187
+
+Query  121  EKL  123
+            E L
+Sbjct  188  EDL  190
+
+
+ Score = 37.4 bits (85),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 35/111 (32%), Positives = 58/111 (52%), Gaps = 3/111 (3%)
+
+Query  4    KLEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHI-PGCVYTMRNLVFLQLACNNLE  62
+            KLE L L++N+L  LP+   AL  L  L++S N +  + PG +  +  L  L L  N+L+
+Sbjct  94   KLENLDLSHNNLKSLPSLGWALPALTTLDVSFNKLGSLSPGVLDGLSQLQELYLQNNDLK  153
+
+Query  63   NIADQ-IQALTDLKILIVEGNCIHSLPK-MLCCLTKLELLNVDFNDIQNVP  111
+            ++    +   T LK L +  N +  LP  +L  L  L+ L +  N ++ +P
+Sbjct  154  SLPPGLLLPTTKLKKLNLANNKLRELPSGLLDGLEDLDTLYLQRNWLRTIP  204
+
+
+ Score = 32.0 bits (71),  Expect = 0.12, Method: Composition-based stats.
+ Identities = 25/64 (39%), Positives = 34/64 (53%), Gaps = 2/64 (3%)
+
+Query  3    SKLEVLSLANNHLTGLPAS-LSALVGLKKLNLSHNNITHIP-GCVYTMRNLVFLQLACNN  60
+            S+L+ L L NN L  LP   L     LKKLNL++N +  +P G +  + +L  L L  N 
+Sbjct  140  SQLQELYLQNNDLKSLPPGLLLPTTKLKKLNLANNKLRELPSGLLDGLEDLDTLYLQRNW  199
+
+Query  61   LENI  64
+            L  I
+Sbjct  200  LRTI  203
+
+
+ Score = 28.5 bits (62),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 22/59 (37%), Positives = 30/59 (51%), Gaps = 1/59 (2%)
+
+Query  3    SKLEVLSLANNHLTGLPAS-LSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNN  60
+            +KL+ L+LANN L  LP+  L  L  L  L L  N +  IP   +    L F+ L  N+
+Sbjct  164  TKLKKLNLANNKLRELPSGLLDGLEDLDTLYLQRNWLRTIPKGFFGTLLLPFVFLHANS  222
+
+
+> XP_006513535.1 PREDICTED: leucine-rich repeat-containing protein 
+20 isoform X3 [Mus musculus]
+Length=115
+
+ Score = 40.8 bits (94),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 29/99 (29%), Positives = 50/99 (51%), Gaps = 5/99 (5%)
+
+Query  47   TMRNLVFLQLACNNLENIADQIQALTDLKILIVEGNCIHSLPKMLCCLTKLELLNVDFND  106
+            T   L  L+L  N L  + +++ +L  L+ + +  N     P+ L  L  LE +N++ N+
+Sbjct  3    TFNQLRELRLEGNYLFRLPNEVSSLQHLRAIDLSRNQFQDFPEQLTTLPALETINLEENE  62
+
+Query  107  IQNVPAE----MHKLKRLEKLACHPLDKGLHIMHNPLLK  141
+            I +VP E    M  L R+  L  +PL   + ++  PL+K
+Sbjct  63   IVDVPVEKLAAMPAL-RVINLRLNPLSADVRVIAPPLIK  100
+
+
+> NP_001074875.1 leucine-rich repeat protein 1 [Mus musculus]
+Length=422
+
+ Score = 42.0 bits (97),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 35/116 (30%), Positives = 61/116 (53%), Gaps = 3/116 (3%)
+
+Query  5    LEVLSLANNHLTGLPASLSALVGLKKLNLSHNNIT--HIPGCVYTM-RNLVFLQLACNNL  61
+            L  L L++N +  LPA++  L  L++LNL+ N +    +P C  T+ ++L  L L+ N +
+Sbjct  187  LTKLDLSHNCIKKLPATIGDLTHLQELNLNDNQLETFSVPLCTSTLQKSLHSLDLSKNKI  246
+
+Query  62   ENIADQIQALTDLKILIVEGNCIHSLPKMLCCLTKLELLNVDFNDIQNVPAEMHKL  117
+            + +  Q     +L  L +  N +  LP  +  LT L  L+   N ++N+P+E   L
+Sbjct  247  KALPVQFCQFRELTNLNLNDNELIHLPFKIGQLTNLRFLSAARNKLRNLPSEFKML  302
+
+
+ Score = 41.2 bits (95),  Expect = 8e-05, Method: Compositional matrix adjust.
+ Identities = 26/81 (32%), Positives = 39/81 (48%), Gaps = 1/81 (1%)
+
+Query  5    LEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNLENI  64
+            L  L L+ N +  LP        L  LNL+ N + H+P  +  + NL FL  A N L N+
+Sbjct  236  LHSLDLSKNKIKALPVQFCQFRELTNLNLNDNELIHLPFKIGQLTNLRFLSAARNKLRNL  295
+
+Query  65   ADQIQALTDLKILIVEGNCIH  85
+              + + L+ L+ L + GN   
+Sbjct  296  PSEFKMLS-LEYLDLFGNTFE  315
+
+
+ Score = 37.4 bits (85),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 32/103 (31%), Positives = 52/103 (50%), Gaps = 3/103 (3%)
+
+Query  25   LVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNLENIADQIQALT---DLKILIVEG  81
+            L  L KL+LSHN I  +P  +  + +L  L L  N LE  +  +   T    L  L +  
+Sbjct  184  LKNLTKLDLSHNCIKKLPATIGDLTHLQELNLNDNQLETFSVPLCTSTLQKSLHSLDLSK  243
+
+Query  82   NCIHSLPKMLCCLTKLELLNVDFNDIQNVPAEMHKLKRLEKLA  124
+            N I +LP   C   +L  LN++ N++ ++P ++ +L  L  L+
+Sbjct  244  NKIKALPVQFCQFRELTNLNLNDNELIHLPFKIGQLTNLRFLS  286
+
+
+> XP_017169373.1 PREDICTED: leucine-rich repeat-containing protein 
+20 isoform X1 [Mus musculus]
+Length=134
+
+ Score = 40.4 bits (93),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 27/92 (29%), Positives = 48/92 (52%), Gaps = 5/92 (5%)
+
+Query  54   LQLACNNLENIADQIQALTDLKILIVEGNCIHSLPKMLCCLTKLELLNVDFNDIQNVPAE  113
+            L+L  N L  + +++ +L  L+ + +  N     P+ L  L  LE +N++ N+I +VP E
+Sbjct  29   LRLEGNYLFRLPNEVSSLQHLRAIDLSRNQFQDFPEQLTTLPALETINLEENEIVDVPVE  88
+
+Query  114  ----MHKLKRLEKLACHPLDKGLHIMHNPLLK  141
+                M  L R+  L  +PL   + ++  PL+K
+Sbjct  89   KLAAMPAL-RVINLRLNPLSADVRVIAPPLIK  119
+
+
+> XP_006532005.1 PREDICTED: CCR4-NOT transcription complex subunit 
+6 isoform X1 [Mus musculus]
+Length=557
+
+ Score = 38.5 bits (88),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 26/78 (33%), Positives = 43/78 (55%), Gaps = 0/78 (0%)
+
+Query  5    LEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNLENI  64
+            L  L L++N L+ +P+ ++ L  L  L+LSHN I  +P  +  M +L  L L  N L  +
+Sbjct  53   LTALHLSDNSLSCIPSDIAKLHNLVYLDLSHNQIQSLPAELGNMVSLRELHLNYNQLRVL  112
+
+Query  65   ADQIQALTDLKILIVEGN  82
+              ++  L  L+ L ++GN
+Sbjct  113  PFELGKLFQLQTLSLKGN  130
+
+
+ Score = 36.2 bits (82),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 29/97 (30%), Positives = 53/97 (55%), Gaps = 4/97 (4%)
+
+Query  28   LKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNLENIADQIQALTDLKILIVEGNCIHSL  87
+            L  L+LS N+++ IP  +  + NLV+L L+ N ++++  ++  +  L+ L +  N +  L
+Sbjct  53   LTALHLSDNSLSCIPSDIAKLHNLVYLDLSHNQIQSLPAELGNMVSLRELHLNYNQLRVL  112
+
+Query  88   PKMLCCLTKLELLNVDFN----DIQNVPAEMHKLKRL  120
+            P  L  L +L+ L++  N    DI N+  E    +RL
+Sbjct  113  PFELGKLFQLQTLSLKGNPLTQDILNLCLEPDGTRRL  149
+
+
+ Score = 35.8 bits (81),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 25/74 (34%), Positives = 41/74 (55%), Gaps = 0/74 (0%)
+
+Query  51   LVFLQLACNNLENIADQIQALTDLKILIVEGNCIHSLPKMLCCLTKLELLNVDFNDIQNV  110
+            L  L L+ N+L  I   I  L +L  L +  N I SLP  L  +  L  L++++N ++ +
+Sbjct  53   LTALHLSDNSLSCIPSDIAKLHNLVYLDLSHNQIQSLPAELGNMVSLRELHLNYNQLRVL  112
+
+Query  111  PAEMHKLKRLEKLA  124
+            P E+ KL +L+ L+
+Sbjct  113  PFELGKLFQLQTLS  126
+
+
+> XP_011246967.1 PREDICTED: CCR4-NOT transcription complex subunit 
+6 isoform X1 [Mus musculus]
+Length=557
+
+ Score = 38.5 bits (88),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 26/78 (33%), Positives = 43/78 (55%), Gaps = 0/78 (0%)
+
+Query  5    LEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNLENI  64
+            L  L L++N L+ +P+ ++ L  L  L+LSHN I  +P  +  M +L  L L  N L  +
+Sbjct  53   LTALHLSDNSLSCIPSDIAKLHNLVYLDLSHNQIQSLPAELGNMVSLRELHLNYNQLRVL  112
+
+Query  65   ADQIQALTDLKILIVEGN  82
+              ++  L  L+ L ++GN
+Sbjct  113  PFELGKLFQLQTLSLKGN  130
+
+
+ Score = 36.2 bits (82),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 29/97 (30%), Positives = 53/97 (55%), Gaps = 4/97 (4%)
+
+Query  28   LKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNLENIADQIQALTDLKILIVEGNCIHSL  87
+            L  L+LS N+++ IP  +  + NLV+L L+ N ++++  ++  +  L+ L +  N +  L
+Sbjct  53   LTALHLSDNSLSCIPSDIAKLHNLVYLDLSHNQIQSLPAELGNMVSLRELHLNYNQLRVL  112
+
+Query  88   PKMLCCLTKLELLNVDFN----DIQNVPAEMHKLKRL  120
+            P  L  L +L+ L++  N    DI N+  E    +RL
+Sbjct  113  PFELGKLFQLQTLSLKGNPLTQDILNLCLEPDGTRRL  149
+
+
+ Score = 35.8 bits (81),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 25/74 (34%), Positives = 41/74 (55%), Gaps = 0/74 (0%)
+
+Query  51   LVFLQLACNNLENIADQIQALTDLKILIVEGNCIHSLPKMLCCLTKLELLNVDFNDIQNV  110
+            L  L L+ N+L  I   I  L +L  L +  N I SLP  L  +  L  L++++N ++ +
+Sbjct  53   LTALHLSDNSLSCIPSDIAKLHNLVYLDLSHNQIQSLPAELGNMVSLRELHLNYNQLRVL  112
+
+Query  111  PAEMHKLKRLEKLA  124
+            P E+ KL +L+ L+
+Sbjct  113  PFELGKLFQLQTLS  126
+
+
+> XP_006532004.1 PREDICTED: CCR4-NOT transcription complex subunit 
+6 isoform X1 [Mus musculus]
+Length=557
+
+ Score = 38.5 bits (88),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 26/78 (33%), Positives = 43/78 (55%), Gaps = 0/78 (0%)
+
+Query  5    LEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNLENI  64
+            L  L L++N L+ +P+ ++ L  L  L+LSHN I  +P  +  M +L  L L  N L  +
+Sbjct  53   LTALHLSDNSLSCIPSDIAKLHNLVYLDLSHNQIQSLPAELGNMVSLRELHLNYNQLRVL  112
+
+Query  65   ADQIQALTDLKILIVEGN  82
+              ++  L  L+ L ++GN
+Sbjct  113  PFELGKLFQLQTLSLKGN  130
+
+
+ Score = 36.2 bits (82),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 29/97 (30%), Positives = 53/97 (55%), Gaps = 4/97 (4%)
+
+Query  28   LKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNLENIADQIQALTDLKILIVEGNCIHSL  87
+            L  L+LS N+++ IP  +  + NLV+L L+ N ++++  ++  +  L+ L +  N +  L
+Sbjct  53   LTALHLSDNSLSCIPSDIAKLHNLVYLDLSHNQIQSLPAELGNMVSLRELHLNYNQLRVL  112
+
+Query  88   PKMLCCLTKLELLNVDFN----DIQNVPAEMHKLKRL  120
+            P  L  L +L+ L++  N    DI N+  E    +RL
+Sbjct  113  PFELGKLFQLQTLSLKGNPLTQDILNLCLEPDGTRRL  149
+
+
+ Score = 35.8 bits (81),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 25/74 (34%), Positives = 41/74 (55%), Gaps = 0/74 (0%)
+
+Query  51   LVFLQLACNNLENIADQIQALTDLKILIVEGNCIHSLPKMLCCLTKLELLNVDFNDIQNV  110
+            L  L L+ N+L  I   I  L +L  L +  N I SLP  L  +  L  L++++N ++ +
+Sbjct  53   LTALHLSDNSLSCIPSDIAKLHNLVYLDLSHNQIQSLPAELGNMVSLRELHLNYNQLRVL  112
+
+Query  111  PAEMHKLKRLEKLA  124
+            P E+ KL +L+ L+
+Sbjct  113  PFELGKLFQLQTLS  126
+
+
+> XP_006532003.1 PREDICTED: CCR4-NOT transcription complex subunit 
+6 isoform X1 [Mus musculus]
+Length=557
+
+ Score = 38.5 bits (88),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 26/78 (33%), Positives = 43/78 (55%), Gaps = 0/78 (0%)
+
+Query  5    LEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNLENI  64
+            L  L L++N L+ +P+ ++ L  L  L+LSHN I  +P  +  M +L  L L  N L  +
+Sbjct  53   LTALHLSDNSLSCIPSDIAKLHNLVYLDLSHNQIQSLPAELGNMVSLRELHLNYNQLRVL  112
+
+Query  65   ADQIQALTDLKILIVEGN  82
+              ++  L  L+ L ++GN
+Sbjct  113  PFELGKLFQLQTLSLKGN  130
+
+
+ Score = 36.2 bits (82),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 29/97 (30%), Positives = 53/97 (55%), Gaps = 4/97 (4%)
+
+Query  28   LKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNLENIADQIQALTDLKILIVEGNCIHSL  87
+            L  L+LS N+++ IP  +  + NLV+L L+ N ++++  ++  +  L+ L +  N +  L
+Sbjct  53   LTALHLSDNSLSCIPSDIAKLHNLVYLDLSHNQIQSLPAELGNMVSLRELHLNYNQLRVL  112
+
+Query  88   PKMLCCLTKLELLNVDFN----DIQNVPAEMHKLKRL  120
+            P  L  L +L+ L++  N    DI N+  E    +RL
+Sbjct  113  PFELGKLFQLQTLSLKGNPLTQDILNLCLEPDGTRRL  149
+
+
+ Score = 35.8 bits (81),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 25/74 (34%), Positives = 41/74 (55%), Gaps = 0/74 (0%)
+
+Query  51   LVFLQLACNNLENIADQIQALTDLKILIVEGNCIHSLPKMLCCLTKLELLNVDFNDIQNV  110
+            L  L L+ N+L  I   I  L +L  L +  N I SLP  L  +  L  L++++N ++ +
+Sbjct  53   LTALHLSDNSLSCIPSDIAKLHNLVYLDLSHNQIQSLPAELGNMVSLRELHLNYNQLRVL  112
+
+Query  111  PAEMHKLKRLEKLA  124
+            P E+ KL +L+ L+
+Sbjct  113  PFELGKLFQLQTLS  126
+
+
+> NP_001106850.1 leucine-rich repeat-containing protein 32 precursor 
+[Mus musculus]
+Length=663
+
+ Score = 37.7 bits (86),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 29/87 (33%), Positives = 42/87 (48%), Gaps = 13/87 (15%)
+
+Query  3    SKLEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGC-------VYTMRNLVFLQ  55
+            + LEVL L  N LT L   L   + LK+LNL+ N ++H+P         V  +RN  F  
+Sbjct  492  ASLEVLELQGNGLTVLRVDLPCFLRLKRLNLAENQLSHLPAWTRAVSLEVLDLRNNSFSL  551
+
+Query  56   LACNNLENIADQIQALTDLKILIVEGN  82
+            L  N +  +       T L+ L ++GN
+Sbjct  552  LPGNAMGGLE------TSLRRLYLQGN  572
+
+
+ Score = 26.2 bits (56),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 23/93 (25%), Positives = 45/93 (48%), Gaps = 2/93 (2%)
+
+Query  22   LSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNLENIADQ--IQALTDLKILIV  79
+             S +  L  LN++ N++  +    +    L  L L+ N   ++A    +     L++L +
+Sbjct  440  FSGIPTLHVLNMAGNSMGMLRAGSFLHTPLTELDLSTNPGLDVATGALVGLEASLEVLEL  499
+
+Query  80   EGNCIHSLPKMLCCLTKLELLNVDFNDIQNVPA  112
+            +GN +  L   L C  +L+ LN+  N + ++PA
+Sbjct  500  QGNGLTVLRVDLPCFLRLKRLNLAENQLSHLPA  532
+
+
+> XP_011241897.1 PREDICTED: leucine-rich repeat and IQ domain-containing 
+protein 1 isoform X4 [Mus musculus]
+Length=1711
+
+ Score = 37.7 bits (86),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 28/92 (30%), Positives = 47/92 (51%), Gaps = 3/92 (3%)
+
+Query  2     CSKLEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLV-FLQLACNN  60
+             C  L+++ L  N+L   P SL   V L++L+L  N+I+ + G       L+ +L ++ N+
+Sbjct  961   CGLLQIIKLQGNYLRE-PPSLRNHVLLRELHLDDNSISSVEGLSSCWLPLLQYLSISQNS  1019
+
+Query  61    LENIADQIQALTDLKILIVEGNCIHSLPKMLC  92
+             L  I      L  L+ L V  NC+  L  ++C
+Sbjct  1020  LATIVPLFH-LVSLEKLDVSNNCLSDLTNVMC  1050
+
+
+ Score = 31.6 bits (70),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 34/122 (28%), Positives = 52/122 (43%), Gaps = 28/122 (23%)
+
+Query  2    CSKLEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNL  61
+            CS L++LSL    LT L   LS    LK ++   N+I  I               +C NL
+Sbjct  830  CSNLQILSLRRCGLTSL-QGLSHCTRLKYIDAQENHIEAI---------------SCENL  873
+
+Query  62   ENIADQIQALTDLKILIVEGNCIHSLPKMLCCLTKLELLNVDFNDIQNVPAEMHKLKRLE  121
+            EN          L ++++  N + S+     C T L+ L +  N I  +   +  LK L+
+Sbjct  874  EN----------LSVVLLNNNLLTSIHGFDGC-TNLQSLELSHNKITRISG-LESLKYLQ  921
+
+Query  122  KL  123
+            +L
+Sbjct  922  EL  923
+
+
+> XP_011241895.1 PREDICTED: leucine-rich repeat and IQ domain-containing 
+protein 1 isoform X1 [Mus musculus]
+Length=1717
+
+ Score = 37.7 bits (86),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 28/92 (30%), Positives = 47/92 (51%), Gaps = 3/92 (3%)
+
+Query  2     CSKLEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLV-FLQLACNN  60
+             C  L+++ L  N+L   P SL   V L++L+L  N+I+ + G       L+ +L ++ N+
+Sbjct  961   CGLLQIIKLQGNYLRE-PPSLRNHVLLRELHLDDNSISSVEGLSSCWLPLLQYLSISQNS  1019
+
+Query  61    LENIADQIQALTDLKILIVEGNCIHSLPKMLC  92
+             L  I      L  L+ L V  NC+  L  ++C
+Sbjct  1020  LATIVPLFH-LVSLEKLDVSNNCLSDLTNVMC  1050
+
+
+ Score = 31.6 bits (70),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 34/122 (28%), Positives = 52/122 (43%), Gaps = 28/122 (23%)
+
+Query  2    CSKLEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNL  61
+            CS L++LSL    LT L   LS    LK ++   N+I  I               +C NL
+Sbjct  830  CSNLQILSLRRCGLTSL-QGLSHCTRLKYIDAQENHIEAI---------------SCENL  873
+
+Query  62   ENIADQIQALTDLKILIVEGNCIHSLPKMLCCLTKLELLNVDFNDIQNVPAEMHKLKRLE  121
+            EN          L ++++  N + S+     C T L+ L +  N I  +   +  LK L+
+Sbjct  874  EN----------LSVVLLNNNLLTSIHGFDGC-TNLQSLELSHNKITRISG-LESLKYLQ  921
+
+Query  122  KL  123
+            +L
+Sbjct  922  EL  923
+
+
+> XP_011241894.1 PREDICTED: leucine-rich repeat and IQ domain-containing 
+protein 1 isoform X1 [Mus musculus]
+Length=1717
+
+ Score = 37.7 bits (86),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 28/92 (30%), Positives = 47/92 (51%), Gaps = 3/92 (3%)
+
+Query  2     CSKLEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLV-FLQLACNN  60
+             C  L+++ L  N+L   P SL   V L++L+L  N+I+ + G       L+ +L ++ N+
+Sbjct  961   CGLLQIIKLQGNYLRE-PPSLRNHVLLRELHLDDNSISSVEGLSSCWLPLLQYLSISQNS  1019
+
+Query  61    LENIADQIQALTDLKILIVEGNCIHSLPKMLC  92
+             L  I      L  L+ L V  NC+  L  ++C
+Sbjct  1020  LATIVPLFH-LVSLEKLDVSNNCLSDLTNVMC  1050
+
+
+ Score = 31.6 bits (70),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 34/122 (28%), Positives = 52/122 (43%), Gaps = 28/122 (23%)
+
+Query  2    CSKLEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNL  61
+            CS L++LSL    LT L   LS    LK ++   N+I  I               +C NL
+Sbjct  830  CSNLQILSLRRCGLTSL-QGLSHCTRLKYIDAQENHIEAI---------------SCENL  873
+
+Query  62   ENIADQIQALTDLKILIVEGNCIHSLPKMLCCLTKLELLNVDFNDIQNVPAEMHKLKRLE  121
+            EN          L ++++  N + S+     C T L+ L +  N I  +   +  LK L+
+Sbjct  874  EN----------LSVVLLNNNLLTSIHGFDGC-TNLQSLELSHNKITRISG-LESLKYLQ  921
+
+Query  122  KL  123
+            +L
+Sbjct  922  EL  923
+
+
+> XP_011241898.1 PREDICTED: leucine-rich repeat and IQ domain-containing 
+protein 1 isoform X6 [Mus musculus]
+Length=1617
+
+ Score = 37.4 bits (85),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 28/92 (30%), Positives = 47/92 (51%), Gaps = 3/92 (3%)
+
+Query  2    CSKLEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLV-FLQLACNN  60
+            C  L+++ L  N+L   P SL   V L++L+L  N+I+ + G       L+ +L ++ N+
+Sbjct  861  CGLLQIIKLQGNYLRE-PPSLRNHVLLRELHLDDNSISSVEGLSSCWLPLLQYLSISQNS  919
+
+Query  61   LENIADQIQALTDLKILIVEGNCIHSLPKMLC  92
+            L  I      L  L+ L V  NC+  L  ++C
+Sbjct  920  LATIVPLFH-LVSLEKLDVSNNCLSDLTNVMC  950
+
+
+ Score = 31.6 bits (70),  Expect = 0.17, Method: Composition-based stats.
+ Identities = 34/122 (28%), Positives = 52/122 (43%), Gaps = 28/122 (23%)
+
+Query  2    CSKLEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNL  61
+            CS L++LSL    LT L   LS    LK ++   N+I  I               +C NL
+Sbjct  730  CSNLQILSLRRCGLTSL-QGLSHCTRLKYIDAQENHIEAI---------------SCENL  773
+
+Query  62   ENIADQIQALTDLKILIVEGNCIHSLPKMLCCLTKLELLNVDFNDIQNVPAEMHKLKRLE  121
+            EN          L ++++  N + S+     C T L+ L +  N I  +   +  LK L+
+Sbjct  774  EN----------LSVVLLNNNLLTSIHGFDGC-TNLQSLELSHNKITRISG-LESLKYLQ  821
+
+Query  122  KL  123
+            +L
+Sbjct  822  EL  823
+
+
+> XP_006514319.1 PREDICTED: leucine-rich repeat and IQ domain-containing 
+protein 1 isoform X3 [Mus musculus]
+Length=1711
+
+ Score = 37.4 bits (85),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 28/92 (30%), Positives = 47/92 (51%), Gaps = 3/92 (3%)
+
+Query  2     CSKLEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLV-FLQLACNN  60
+             C  L+++ L  N+L   P SL   V L++L+L  N+I+ + G       L+ +L ++ N+
+Sbjct  961   CGLLQIIKLQGNYLRE-PPSLRNHVLLRELHLDDNSISSVEGLSSCWLPLLQYLSISQNS  1019
+
+Query  61    LENIADQIQALTDLKILIVEGNCIHSLPKMLC  92
+             L  I      L  L+ L V  NC+  L  ++C
+Sbjct  1020  LATIVPLFH-LVSLEKLDVSNNCLSDLTNVMC  1050
+
+
+ Score = 31.6 bits (70),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 34/122 (28%), Positives = 52/122 (43%), Gaps = 28/122 (23%)
+
+Query  2    CSKLEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNL  61
+            CS L++LSL    LT L   LS    LK ++   N+I  I               +C NL
+Sbjct  830  CSNLQILSLRRCGLTSL-QGLSHCTRLKYIDAQENHIEAI---------------SCENL  873
+
+Query  62   ENIADQIQALTDLKILIVEGNCIHSLPKMLCCLTKLELLNVDFNDIQNVPAEMHKLKRLE  121
+            EN          L ++++  N + S+     C T L+ L +  N I  +   +  LK L+
+Sbjct  874  EN----------LSVVLLNNNLLTSIHGFDGC-TNLQSLELSHNKITRISG-LESLKYLQ  921
+
+Query  122  KL  123
+            +L
+Sbjct  922  EL  923
+
+
+> XP_011241896.1 PREDICTED: leucine-rich repeat and IQ domain-containing 
+protein 1 isoform X2 [Mus musculus]
+Length=1716
+
+ Score = 37.4 bits (85),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 28/92 (30%), Positives = 47/92 (51%), Gaps = 3/92 (3%)
+
+Query  2     CSKLEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLV-FLQLACNN  60
+             C  L+++ L  N+L   P SL   V L++L+L  N+I+ + G       L+ +L ++ N+
+Sbjct  961   CGLLQIIKLQGNYLRE-PPSLRNHVLLRELHLDDNSISSVEGLSSCWLPLLQYLSISQNS  1019
+
+Query  61    LENIADQIQALTDLKILIVEGNCIHSLPKMLC  92
+             L  I      L  L+ L V  NC+  L  ++C
+Sbjct  1020  LATIVPLFH-LVSLEKLDVSNNCLSDLTNVMC  1050
+
+
+ Score = 31.6 bits (70),  Expect = 0.16, Method: Composition-based stats.
+ Identities = 34/122 (28%), Positives = 52/122 (43%), Gaps = 28/122 (23%)
+
+Query  2    CSKLEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNL  61
+            CS L++LSL    LT L   LS    LK ++   N+I  I               +C NL
+Sbjct  830  CSNLQILSLRRCGLTSL-QGLSHCTRLKYIDAQENHIEAI---------------SCENL  873
+
+Query  62   ENIADQIQALTDLKILIVEGNCIHSLPKMLCCLTKLELLNVDFNDIQNVPAEMHKLKRLE  121
+            EN          L ++++  N + S+     C T L+ L +  N I  +   +  LK L+
+Sbjct  874  EN----------LSVVLLNNNLLTSIHGFDGC-TNLQSLELSHNKITRISG-LESLKYLQ  921
+
+Query  122  KL  123
+            +L
+Sbjct  922  EL  923
+
+
+> XP_006514322.1 PREDICTED: leucine-rich repeat and IQ domain-containing 
+protein 1 isoform X5 [Mus musculus]
+Length=1673
+
+ Score = 37.4 bits (85),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 28/92 (30%), Positives = 47/92 (51%), Gaps = 3/92 (3%)
+
+Query  2     CSKLEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLV-FLQLACNN  60
+             C  L+++ L  N+L   P SL   V L++L+L  N+I+ + G       L+ +L ++ N+
+Sbjct  961   CGLLQIIKLQGNYLRE-PPSLRNHVLLRELHLDDNSISSVEGLSSCWLPLLQYLSISQNS  1019
+
+Query  61    LENIADQIQALTDLKILIVEGNCIHSLPKMLC  92
+             L  I      L  L+ L V  NC+  L  ++C
+Sbjct  1020  LATIVPLFH-LVSLEKLDVSNNCLSDLTNVMC  1050
+
+
+ Score = 31.2 bits (69),  Expect = 0.21, Method: Composition-based stats.
+ Identities = 34/122 (28%), Positives = 52/122 (43%), Gaps = 28/122 (23%)
+
+Query  2    CSKLEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNL  61
+            CS L++LSL    LT L   LS    LK ++   N+I  I               +C NL
+Sbjct  830  CSNLQILSLRRCGLTSL-QGLSHCTRLKYIDAQENHIEAI---------------SCENL  873
+
+Query  62   ENIADQIQALTDLKILIVEGNCIHSLPKMLCCLTKLELLNVDFNDIQNVPAEMHKLKRLE  121
+            EN          L ++++  N + S+     C T L+ L +  N I  +   +  LK L+
+Sbjct  874  EN----------LSVVLLNNNLLTSIHGFDGC-TNLQSLELSHNKITRISG-LESLKYLQ  921
+
+Query  122  KL  123
+            +L
+Sbjct  922  EL  923
+
+
+> XP_017177193.1 PREDICTED: toll-like receptor 5 isoform X1 [Mus 
+musculus]
+Length=873
+
+ Score = 33.5 bits (75),  Expect = 0.029, Method: Composition-based stats.
+ Identities = 24/61 (39%), Positives = 38/61 (62%), Gaps = 4/61 (7%)
+
+Query  3    SKLEVLSLANNHLTGLPASL-SALVGLKKLNLSHNNITHI-PGCVYTMRNLVFLQLACNN  60
+            S+L++L L+NN+L  LP  + + LV L+ L+LS N +T + PG +    NL  L ++ N 
+Sbjct  517  SRLQILYLSNNYLNFLPPGIFNDLVALRMLSLSANKLTVLSPGSLPA--NLEILDISRNQ  574
+
+Query  61   L  61
+            L
+Sbjct  575  L  575
+
+
+ Score = 27.7 bits (60),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 23/84 (27%), Positives = 43/84 (51%), Gaps = 9/84 (11%)
+
+Query  5    LEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNLENI  64
+            L+ L L +N L     ++  +  ++ + L  N + H+P   +T     FL+L+ N LEN+
+Sbjct  401  LQTLDLRDNALK----AIGFIPSIQMVLLGGNKLVHLPHIHFTAN---FLELSENRLENL  453
+
+Query  65   ADQ--IQALTDLKILIVEGNCIHS  86
+            +D   +  +  L+ LI+  N + S
+Sbjct  454  SDLYFLLRVPQLQFLILNQNRLSS  477
+
+
+> XP_017177192.1 PREDICTED: toll-like receptor 5 isoform X1 [Mus 
+musculus]
+Length=873
+
+ Score = 33.5 bits (75),  Expect = 0.029, Method: Composition-based stats.
+ Identities = 24/61 (39%), Positives = 38/61 (62%), Gaps = 4/61 (7%)
+
+Query  3    SKLEVLSLANNHLTGLPASL-SALVGLKKLNLSHNNITHI-PGCVYTMRNLVFLQLACNN  60
+            S+L++L L+NN+L  LP  + + LV L+ L+LS N +T + PG +    NL  L ++ N 
+Sbjct  517  SRLQILYLSNNYLNFLPPGIFNDLVALRMLSLSANKLTVLSPGSLPA--NLEILDISRNQ  574
+
+Query  61   L  61
+            L
+Sbjct  575  L  575
+
+
+ Score = 27.7 bits (60),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 23/84 (27%), Positives = 43/84 (51%), Gaps = 9/84 (11%)
+
+Query  5    LEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNLENI  64
+            L+ L L +N L     ++  +  ++ + L  N + H+P   +T     FL+L+ N LEN+
+Sbjct  401  LQTLDLRDNALK----AIGFIPSIQMVLLGGNKLVHLPHIHFTAN---FLELSENRLENL  453
+
+Query  65   ADQ--IQALTDLKILIVEGNCIHS  86
+            +D   +  +  L+ LI+  N + S
+Sbjct  454  SDLYFLLRVPQLQFLILNQNRLSS  477
+
+
+> XP_017177191.1 PREDICTED: toll-like receptor 5 isoform X1 [Mus 
+musculus]
+Length=873
+
+ Score = 33.5 bits (75),  Expect = 0.029, Method: Composition-based stats.
+ Identities = 24/61 (39%), Positives = 38/61 (62%), Gaps = 4/61 (7%)
+
+Query  3    SKLEVLSLANNHLTGLPASL-SALVGLKKLNLSHNNITHI-PGCVYTMRNLVFLQLACNN  60
+            S+L++L L+NN+L  LP  + + LV L+ L+LS N +T + PG +    NL  L ++ N 
+Sbjct  517  SRLQILYLSNNYLNFLPPGIFNDLVALRMLSLSANKLTVLSPGSLPA--NLEILDISRNQ  574
+
+Query  61   L  61
+            L
+Sbjct  575  L  575
+
+
+ Score = 27.7 bits (60),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 23/84 (27%), Positives = 43/84 (51%), Gaps = 9/84 (11%)
+
+Query  5    LEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNLENI  64
+            L+ L L +N L     ++  +  ++ + L  N + H+P   +T     FL+L+ N LEN+
+Sbjct  401  LQTLDLRDNALK----AIGFIPSIQMVLLGGNKLVHLPHIHFTAN---FLELSENRLENL  453
+
+Query  65   ADQ--IQALTDLKILIVEGNCIHS  86
+            +D   +  +  L+ LI+  N + S
+Sbjct  454  SDLYFLLRVPQLQFLILNQNRLSS  477
+
+
+> XP_017177190.1 PREDICTED: toll-like receptor 5 isoform X1 [Mus 
+musculus]
+Length=873
+
+ Score = 33.5 bits (75),  Expect = 0.029, Method: Composition-based stats.
+ Identities = 24/61 (39%), Positives = 38/61 (62%), Gaps = 4/61 (7%)
+
+Query  3    SKLEVLSLANNHLTGLPASL-SALVGLKKLNLSHNNITHI-PGCVYTMRNLVFLQLACNN  60
+            S+L++L L+NN+L  LP  + + LV L+ L+LS N +T + PG +    NL  L ++ N 
+Sbjct  517  SRLQILYLSNNYLNFLPPGIFNDLVALRMLSLSANKLTVLSPGSLPA--NLEILDISRNQ  574
+
+Query  61   L  61
+            L
+Sbjct  575  L  575
+
+
+ Score = 27.7 bits (60),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 23/84 (27%), Positives = 43/84 (51%), Gaps = 9/84 (11%)
+
+Query  5    LEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNLENI  64
+            L+ L L +N L     ++  +  ++ + L  N + H+P   +T     FL+L+ N LEN+
+Sbjct  401  LQTLDLRDNALK----AIGFIPSIQMVLLGGNKLVHLPHIHFTAN---FLELSENRLENL  453
+
+Query  65   ADQ--IQALTDLKILIVEGNCIHS  86
+            +D   +  +  L+ LI+  N + S
+Sbjct  454  SDLYFLLRVPQLQFLILNQNRLSS  477
+
+
+> XP_017177189.1 PREDICTED: toll-like receptor 5 isoform X1 [Mus 
+musculus]
+Length=873
+
+ Score = 33.5 bits (75),  Expect = 0.029, Method: Composition-based stats.
+ Identities = 24/61 (39%), Positives = 38/61 (62%), Gaps = 4/61 (7%)
+
+Query  3    SKLEVLSLANNHLTGLPASL-SALVGLKKLNLSHNNITHI-PGCVYTMRNLVFLQLACNN  60
+            S+L++L L+NN+L  LP  + + LV L+ L+LS N +T + PG +    NL  L ++ N 
+Sbjct  517  SRLQILYLSNNYLNFLPPGIFNDLVALRMLSLSANKLTVLSPGSLPA--NLEILDISRNQ  574
+
+Query  61   L  61
+            L
+Sbjct  575  L  575
+
+
+ Score = 27.7 bits (60),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 23/84 (27%), Positives = 43/84 (51%), Gaps = 9/84 (11%)
+
+Query  5    LEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNLENI  64
+            L+ L L +N L     ++  +  ++ + L  N + H+P   +T     FL+L+ N LEN+
+Sbjct  401  LQTLDLRDNALK----AIGFIPSIQMVLLGGNKLVHLPHIHFTAN---FLELSENRLENL  453
+
+Query  65   ADQ--IQALTDLKILIVEGNCIHS  86
+            +D   +  +  L+ LI+  N + S
+Sbjct  454  SDLYFLLRVPQLQFLILNQNRLSS  477
+
+
+> XP_017177188.1 PREDICTED: toll-like receptor 5 isoform X1 [Mus 
+musculus]
+Length=873
+
+ Score = 33.5 bits (75),  Expect = 0.029, Method: Composition-based stats.
+ Identities = 24/61 (39%), Positives = 38/61 (62%), Gaps = 4/61 (7%)
+
+Query  3    SKLEVLSLANNHLTGLPASL-SALVGLKKLNLSHNNITHI-PGCVYTMRNLVFLQLACNN  60
+            S+L++L L+NN+L  LP  + + LV L+ L+LS N +T + PG +    NL  L ++ N 
+Sbjct  517  SRLQILYLSNNYLNFLPPGIFNDLVALRMLSLSANKLTVLSPGSLPA--NLEILDISRNQ  574
+
+Query  61   L  61
+            L
+Sbjct  575  L  575
+
+
+ Score = 27.7 bits (60),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 23/84 (27%), Positives = 43/84 (51%), Gaps = 9/84 (11%)
+
+Query  5    LEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNLENI  64
+            L+ L L +N L     ++  +  ++ + L  N + H+P   +T     FL+L+ N LEN+
+Sbjct  401  LQTLDLRDNALK----AIGFIPSIQMVLLGGNKLVHLPHIHFTAN---FLELSENRLENL  453
+
+Query  65   ADQ--IQALTDLKILIVEGNCIHS  86
+            +D   +  +  L+ LI+  N + S
+Sbjct  454  SDLYFLLRVPQLQFLILNQNRLSS  477
+
+
+> XP_017177187.1 PREDICTED: toll-like receptor 5 isoform X1 [Mus 
+musculus]
+Length=873
+
+ Score = 33.5 bits (75),  Expect = 0.029, Method: Composition-based stats.
+ Identities = 24/61 (39%), Positives = 38/61 (62%), Gaps = 4/61 (7%)
+
+Query  3    SKLEVLSLANNHLTGLPASL-SALVGLKKLNLSHNNITHI-PGCVYTMRNLVFLQLACNN  60
+            S+L++L L+NN+L  LP  + + LV L+ L+LS N +T + PG +    NL  L ++ N 
+Sbjct  517  SRLQILYLSNNYLNFLPPGIFNDLVALRMLSLSANKLTVLSPGSLPA--NLEILDISRNQ  574
+
+Query  61   L  61
+            L
+Sbjct  575  L  575
+
+
+ Score = 27.7 bits (60),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 23/84 (27%), Positives = 43/84 (51%), Gaps = 9/84 (11%)
+
+Query  5    LEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNLENI  64
+            L+ L L +N L     ++  +  ++ + L  N + H+P   +T     FL+L+ N LEN+
+Sbjct  401  LQTLDLRDNALK----AIGFIPSIQMVLLGGNKLVHLPHIHFTAN---FLELSENRLENL  453
+
+Query  65   ADQ--IQALTDLKILIVEGNCIHS  86
+            +D   +  +  L+ LI+  N + S
+Sbjct  454  SDLYFLLRVPQLQFLILNQNRLSS  477
+
+
+> XP_017177186.1 PREDICTED: toll-like receptor 5 isoform X1 [Mus 
+musculus]
+Length=873
+
+ Score = 33.5 bits (75),  Expect = 0.029, Method: Composition-based stats.
+ Identities = 24/61 (39%), Positives = 38/61 (62%), Gaps = 4/61 (7%)
+
+Query  3    SKLEVLSLANNHLTGLPASL-SALVGLKKLNLSHNNITHI-PGCVYTMRNLVFLQLACNN  60
+            S+L++L L+NN+L  LP  + + LV L+ L+LS N +T + PG +    NL  L ++ N 
+Sbjct  517  SRLQILYLSNNYLNFLPPGIFNDLVALRMLSLSANKLTVLSPGSLPA--NLEILDISRNQ  574
+
+Query  61   L  61
+            L
+Sbjct  575  L  575
+
+
+ Score = 27.7 bits (60),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 23/84 (27%), Positives = 43/84 (51%), Gaps = 9/84 (11%)
+
+Query  5    LEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNLENI  64
+            L+ L L +N L     ++  +  ++ + L  N + H+P   +T     FL+L+ N LEN+
+Sbjct  401  LQTLDLRDNALK----AIGFIPSIQMVLLGGNKLVHLPHIHFTAN---FLELSENRLENL  453
+
+Query  65   ADQ--IQALTDLKILIVEGNCIHS  86
+            +D   +  +  L+ LI+  N + S
+Sbjct  454  SDLYFLLRVPQLQFLILNQNRLSS  477
+
+
+> XP_006529148.1 PREDICTED: prolargin isoform X2 [Mus musculus]
+Length=378
+
+ Score = 30.0 bits (66),  Expect = 0.43, Method: Compositional matrix adjust.
+ Identities = 29/103 (28%), Positives = 51/103 (50%), Gaps = 5/103 (5%)
+
+Query  21   SLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNLENIAD-QIQALTDLKILIV  79
+            +   L  L +LNL+HN +  +P  V    + ++L    N +E I +   +   +L  + +
+Sbjct  212  TFQGLKNLMQLNLAHNILRKMPPKVPQAIHQLYLD--SNKIETIPNGYFKDFPNLAFIRM  269
+
+Query  80   EGNCI--HSLPKMLCCLTKLELLNVDFNDIQNVPAEMHKLKRL  120
+              N +    LPK    ++ L +L++  N I NVPA  +KL+ L
+Sbjct  270  NYNKLSDRGLPKNSFNISNLLVLHLSHNKISNVPAISNKLEHL  312
+
+
+> XP_006529147.1 PREDICTED: prolargin isoform X2 [Mus musculus]
+Length=378
+
+ Score = 30.0 bits (66),  Expect = 0.43, Method: Compositional matrix adjust.
+ Identities = 29/103 (28%), Positives = 51/103 (50%), Gaps = 5/103 (5%)
+
+Query  21   SLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNLENIAD-QIQALTDLKILIV  79
+            +   L  L +LNL+HN +  +P  V    + ++L    N +E I +   +   +L  + +
+Sbjct  212  TFQGLKNLMQLNLAHNILRKMPPKVPQAIHQLYLD--SNKIETIPNGYFKDFPNLAFIRM  269
+
+Query  80   EGNCI--HSLPKMLCCLTKLELLNVDFNDIQNVPAEMHKLKRL  120
+              N +    LPK    ++ L +L++  N I NVPA  +KL+ L
+Sbjct  270  NYNKLSDRGLPKNSFNISNLLVLHLSHNKISNVPAISNKLEHL  312
+
+
+> XP_006529146.1 PREDICTED: prolargin isoform X1 [Mus musculus]
+Length=397
+
+ Score = 30.0 bits (66),  Expect = 0.43, Method: Compositional matrix adjust.
+ Identities = 29/103 (28%), Positives = 51/103 (50%), Gaps = 5/103 (5%)
+
+Query  21   SLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNLENIAD-QIQALTDLKILIV  79
+            +   L  L +LNL+HN +  +P  V    + ++L    N +E I +   +   +L  + +
+Sbjct  231  TFQGLKNLMQLNLAHNILRKMPPKVPQAIHQLYLD--SNKIETIPNGYFKDFPNLAFIRM  288
+
+Query  80   EGNCI--HSLPKMLCCLTKLELLNVDFNDIQNVPAEMHKLKRL  120
+              N +    LPK    ++ L +L++  N I NVPA  +KL+ L
+Sbjct  289  NYNKLSDRGLPKNSFNISNLLVLHLSHNKISNVPAISNKLEHL  331
+
+
+> XP_006514823.1 PREDICTED: hemoglobin subunit theta-1 isoform 
+X1 [Mus musculus]
+Length=110
+
+ Score = 28.5 bits (62),  Expect = 0.69, Method: Compositional matrix adjust.
+ Identities = 22/54 (41%), Positives = 25/54 (46%), Gaps = 11/54 (20%)
+
+Query  6    EVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACN  59
+            + L+LA  HL  LPASLSAL  L    L          CV    N  FL  AC+
+Sbjct  65   DALTLATQHLDDLPASLSALSDLHAHKL----------CV-DPANFQFLSQACS  107
+
+
+> XP_006513686.1 PREDICTED: leucine-rich repeat and immunoglobulin-like 
+domain-containing nogo receptor-interacting protein 
+3 isoform X1 [Mus musculus]
+Length=589
+
+ Score = 29.3 bits (64),  Expect = 0.82, Method: Composition-based stats.
+ Identities = 20/52 (38%), Positives = 31/52 (60%), Gaps = 3/52 (6%)
+
+Query  5    LEVLSLANNHLTGLPAS-LSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQ  55
+            L  LS+ + ++T +PA+ L     L  LNLSHN I+ +P    + R+LV L+
+Sbjct  247  LTSLSITHTNITAVPAAALRQQAHLTCLNLSHNPISMVPRG--SFRDLVRLR  296
+
+
+ Score = 28.9 bits (63),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 16/43 (37%), Positives = 28/43 (65%), Gaps = 2/43 (5%)
+
+Query  3   SKLEVLSLANNHLTGL-PASLSALVGLKKLNLSHNNITHI-PG  43
+           ++  +L L+ N +  L P  L++L  L++L+L+HN I H+ PG
+Sbjct  53  AETRMLELSRNRIRCLNPGDLASLPTLEELDLNHNVIAHVEPG  95
+
+
+> XP_006513685.1 PREDICTED: leucine-rich repeat and immunoglobulin-like 
+domain-containing nogo receptor-interacting protein 
+3 isoform X1 [Mus musculus]
+Length=589
+
+ Score = 29.3 bits (64),  Expect = 0.82, Method: Composition-based stats.
+ Identities = 20/52 (38%), Positives = 31/52 (60%), Gaps = 3/52 (6%)
+
+Query  5    LEVLSLANNHLTGLPAS-LSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQ  55
+            L  LS+ + ++T +PA+ L     L  LNLSHN I+ +P    + R+LV L+
+Sbjct  247  LTSLSITHTNITAVPAAALRQQAHLTCLNLSHNPISMVPRG--SFRDLVRLR  296
+
+
+ Score = 28.9 bits (63),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 16/43 (37%), Positives = 28/43 (65%), Gaps = 2/43 (5%)
+
+Query  3   SKLEVLSLANNHLTGL-PASLSALVGLKKLNLSHNNITHI-PG  43
+           ++  +L L+ N +  L P  L++L  L++L+L+HN I H+ PG
+Sbjct  53  AETRMLELSRNRIRCLNPGDLASLPTLEELDLNHNVIAHVEPG  95
+
+
+> XP_006513684.1 PREDICTED: leucine-rich repeat and immunoglobulin-like 
+domain-containing nogo receptor-interacting protein 
+3 isoform X1 [Mus musculus]
+Length=589
+
+ Score = 29.3 bits (64),  Expect = 0.82, Method: Composition-based stats.
+ Identities = 20/52 (38%), Positives = 31/52 (60%), Gaps = 3/52 (6%)
+
+Query  5    LEVLSLANNHLTGLPAS-LSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQ  55
+            L  LS+ + ++T +PA+ L     L  LNLSHN I+ +P    + R+LV L+
+Sbjct  247  LTSLSITHTNITAVPAAALRQQAHLTCLNLSHNPISMVPRG--SFRDLVRLR  296
+
+
+ Score = 28.9 bits (63),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 16/43 (37%), Positives = 28/43 (65%), Gaps = 2/43 (5%)
+
+Query  3   SKLEVLSLANNHLTGL-PASLSALVGLKKLNLSHNNITHI-PG  43
+           ++  +L L+ N +  L P  L++L  L++L+L+HN I H+ PG
+Sbjct  53  AETRMLELSRNRIRCLNPGDLASLPTLEELDLNHNVIAHVEPG  95
+
+
+> XP_006513683.1 PREDICTED: leucine-rich repeat and immunoglobulin-like 
+domain-containing nogo receptor-interacting protein 
+3 isoform X1 [Mus musculus]
+Length=589
+
+ Score = 29.3 bits (64),  Expect = 0.82, Method: Composition-based stats.
+ Identities = 20/52 (38%), Positives = 31/52 (60%), Gaps = 3/52 (6%)
+
+Query  5    LEVLSLANNHLTGLPAS-LSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQ  55
+            L  LS+ + ++T +PA+ L     L  LNLSHN I+ +P    + R+LV L+
+Sbjct  247  LTSLSITHTNITAVPAAALRQQAHLTCLNLSHNPISMVPRG--SFRDLVRLR  296
+
+
+ Score = 28.9 bits (63),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 16/43 (37%), Positives = 28/43 (65%), Gaps = 2/43 (5%)
+
+Query  3   SKLEVLSLANNHLTGL-PASLSALVGLKKLNLSHNNITHI-PG  43
+           ++  +L L+ N +  L P  L++L  L++L+L+HN I H+ PG
+Sbjct  53  AETRMLELSRNRIRCLNPGDLASLPTLEELDLNHNVIAHVEPG  95
+
+
+> XP_006512881.1 PREDICTED: nephrocan isoform X1 [Mus musculus]
+Length=561
+
+ Score = 29.3 bits (64),  Expect = 0.86, Method: Compositional matrix adjust.
+ Identities = 44/167 (26%), Positives = 70/167 (42%), Gaps = 49/167 (29%)
+
+Query  3    SKLEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYT-MRNLVFLQLACN--  59
+            + L+ L +  N++  +   LS L  LK +++ +N +  IPG V+T ++NL FL  + N  
+Sbjct  213  ASLQSLMVDGNNIESVVGPLS-LPHLKYMSMENNQLHLIPGNVFTSLQNLQFLSFSGNFL  271
+
+Query  60   ------------------------------NLENIA------------DQIQALTDLKIL  77
+                                          +LEN++            D  Q LT+L  L
+Sbjct  272  TKIPINLPKSLLSLKMERNQLKVVRFRDMKHLENLSHLYLSENFLSSIDGAQQLTNLTTL  331
+
+Query  78   IVEGNCIHSLPKMLCCLTKLELLNVDFNDIQNVPA-EMHKLKRLEKL  123
+             V  N +  LP  L   ++L+ L+   N IQ V A E   L+ L+ L
+Sbjct  332  EVSQNQLQMLPPRLP--SRLQKLDCSSNFIQRVTAPEFQDLRDLKHL  376
+
+
+> XP_006512882.1 PREDICTED: nephrocan isoform X2 [Mus musculus]
+Length=451
+
+ Score = 28.5 bits (62),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 44/167 (26%), Positives = 70/167 (42%), Gaps = 49/167 (29%)
+
+Query  3    SKLEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYT-MRNLVFLQLACN--  59
+            + L+ L +  N++  +   LS L  LK +++ +N +  IPG V+T ++NL FL  + N  
+Sbjct  103  ASLQSLMVDGNNIESVVGPLS-LPHLKYMSMENNQLHLIPGNVFTSLQNLQFLSFSGNFL  161
+
+Query  60   ------------------------------NLENIA------------DQIQALTDLKIL  77
+                                          +LEN++            D  Q LT+L  L
+Sbjct  162  TKIPINLPKSLLSLKMERNQLKVVRFRDMKHLENLSHLYLSENFLSSIDGAQQLTNLTTL  221
+
+Query  78   IVEGNCIHSLPKMLCCLTKLELLNVDFNDIQNVPA-EMHKLKRLEKL  123
+             V  N +  LP  L   ++L+ L+   N IQ V A E   L+ L+ L
+Sbjct  222  EVSQNQLQMLPPRLP--SRLQKLDCSSNFIQRVTAPEFQDLRDLKHL  266
+
+
+> NP_001029153.1 hemoglobin subunit theta-1 [Mus musculus]
+Length=142
+
+ Score = 28.1 bits (61),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 14/23 (61%), Positives = 16/23 (70%), Gaps = 0/23 (0%)
+
+Query  6   EVLSLANNHLTGLPASLSALVGL  28
+           + L+LA  HL  LPASLSAL  L
+Sbjct  65  DALTLATQHLDDLPASLSALSDL  87
+
+
+> XP_006515433.1 PREDICTED: dynein light chain 1, axonemal isoform 
+X1 [Mus musculus]
+Length=177
+
+ Score = 27.3 bits (59),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 28/107 (26%), Positives = 51/107 (48%), Gaps = 14/107 (13%)
+
+Query  5    LEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNLENI  64
+            L +LSL  N++  L    +    L++L +S+N I  + G ++ M+ L  L ++ N +++ 
+Sbjct  59   LRILSLGRNNIKNLNGLEAVGETLEELWISYNFIEKLKG-IHVMKKLKILYMSNNLVKDW  117
+
+Query  65   AD-----QIQALTDLKIL--------IVEGNCIHSLPKMLCCLTKLE  98
+            A+     ++  L DL  +          EGN I    K +  L KL+
+Sbjct  118  AEFLKLAELPCLEDLVFVGNPLEEKHSAEGNWIDEATKRVPKLKKLD  164
+
+
+> XP_006529724.1 PREDICTED: opticin isoform X2 [Mus musculus]
+Length=381
+
+ Score = 27.3 bits (59),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 30/96 (31%), Positives = 48/96 (50%), Gaps = 19/96 (20%)
+
+Query  4    KLEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNLEN  63
+            KL+ L LANN L  +P  L   + L+ L+L +N I        TM +  F    C+  E+
+Sbjct  297  KLQFLYLANNMLDSIPGPLP--LSLRSLHLQNNMIE-------TMESDTF----CDTGEH  343
+
+Query  64   IADQIQALTDLKILIVEGNCIH--SLPKMLCCLTKL  97
+              ++ Q L D+++   +GN I+    P+   CL +L
+Sbjct  344  RHERRQ-LEDIRL---DGNPINLSLFPEAYFCLPRL  375
+
+
+> XP_006529723.1 PREDICTED: opticin isoform X2 [Mus musculus]
+Length=381
+
+ Score = 27.3 bits (59),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 30/96 (31%), Positives = 48/96 (50%), Gaps = 19/96 (20%)
+
+Query  4    KLEVLSLANNHLTGLPASLSALVGLKKLNLSHNNITHIPGCVYTMRNLVFLQLACNNLEN  63
+            KL+ L LANN L  +P  L   + L+ L+L +N I        TM +  F    C+  E+
+Sbjct  297  KLQFLYLANNMLDSIPGPLP--LSLRSLHLQNNMIE-------TMESDTF----CDTGEH  343
+
+Query  64   IADQIQALTDLKILIVEGNCIH--SLPKMLCCLTKL  97
+              ++ Q L D+++   +GN I+    P+   CL +L
+Sbjct  344  RHERRQ-LEDIRL---DGNPINLSLFPEAYFCLPRL  375
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.139    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 553344819
+
+
+Query= NP_998144.1 dual specificity phosphatase 19 [Danio rerio]
+
+Length=205
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  XP_006533291.1 PREDICTED: protein phosphatase Slingshot homolog...  103     1e-25
+  XP_006533290.1 PREDICTED: protein phosphatase Slingshot homolog...  103     1e-25
+  XP_006533292.1 PREDICTED: protein phosphatase Slingshot homolog...  103     1e-25
+  XP_006534369.1 PREDICTED: dual specificity protein phosphatase ...  84.7    1e-20
+  XP_006534368.1 PREDICTED: dual specificity protein phosphatase ...  84.3    3e-20
+  XP_006514936.1 PREDICTED: dual specificity protein phosphatase ...  82.8    5e-20
+  XP_006533862.1 PREDICTED: dual specificity protein phosphatase ...  82.4    1e-19
+  XP_006533861.1 PREDICTED: dual specificity protein phosphatase ...  82.4    1e-19
+  XP_006533860.1 PREDICTED: dual specificity protein phosphatase ...  82.4    1e-19
+  XP_006533859.1 PREDICTED: dual specificity protein phosphatase ...  82.4    1e-19
+  XP_006497252.1 PREDICTED: dual specificity protein phosphatase ...  82.0    2e-18
+  XP_006497251.1 PREDICTED: dual specificity protein phosphatase ...  82.0    2e-18
+  XP_006497105.1 PREDICTED: dual specificity protein phosphatase ...  35.0    0.010
+  XP_006497197.1 PREDICTED: tyrosine-protein phosphatase non-rece...  29.3    1.6  
+  XP_006497196.1 PREDICTED: tyrosine-protein phosphatase non-rece...  28.9    1.7  
+  XP_006497194.1 PREDICTED: tyrosine-protein phosphatase non-rece...  28.9    1.7  
+  XP_006497193.1 PREDICTED: tyrosine-protein phosphatase non-rece...  28.9    1.7  
+  XP_006497192.1 PREDICTED: tyrosine-protein phosphatase non-rece...  28.9    1.7  
+  NP_001158127.1 Fc fragment of IgG binding protein-like precurso...  28.5    3.0  
+  NP_001098530.1 vomeronasal 2, receptor 63 precursor [Mus musculus]  26.9    7.0  
+  NP_808432.2 vomeronasal 2, receptor 57 precursor [Mus musculus]     26.9    7.1  
+
+
+> XP_006533291.1 PREDICTED: protein phosphatase Slingshot homolog 
+2 isoform X2 [Mus musculus]
+Length=1449
+
+ Score = 103 bits (256),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 46/125 (37%), Positives = 74/125 (59%), Gaps = 0/125 (0%)
+
+Query  78   ASQDAAHDIDTLKKLKVTHVLNVAFGVENVFPELFTYKTVSMLDLPETDITAYFPECFEF  137
+             S+  A +++ L+   V ++LNV   ++N FP +F Y  + + D   TD+ AY+ + ++F
+Sbjct  344  GSEWNASNLEDLQNRGVRYILNVTREIDNFFPGVFEYHNIRVYDEEATDLLAYWNDTYKF  403
+
+Query  138  ITQARQQDGVVLVHCNAGVSRSASVVIGFLMSELKMSFDEAFSVAKTSRPQIQPNPGFLQ  197
+            I++A++     LVHC  GVSRSAS VI + M E   + D A+   K  R   +PNP F++
+Sbjct  404  ISKAKKHGSKCLVHCKMGVSRSASTVIAYAMKEYGWNLDRAYDYVKERRTVTKPNPSFMR  463
+
+Query  198  QLKTY  202
+            QL+ Y
+Sbjct  464  QLEEY  468
+
+
+> XP_006533290.1 PREDICTED: protein phosphatase Slingshot homolog 
+2 isoform X1 [Mus musculus]
+Length=1450
+
+ Score = 103 bits (256),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 46/125 (37%), Positives = 74/125 (59%), Gaps = 0/125 (0%)
+
+Query  78   ASQDAAHDIDTLKKLKVTHVLNVAFGVENVFPELFTYKTVSMLDLPETDITAYFPECFEF  137
+             S+  A +++ L+   V ++LNV   ++N FP +F Y  + + D   TD+ AY+ + ++F
+Sbjct  345  GSEWNASNLEDLQNRGVRYILNVTREIDNFFPGVFEYHNIRVYDEEATDLLAYWNDTYKF  404
+
+Query  138  ITQARQQDGVVLVHCNAGVSRSASVVIGFLMSELKMSFDEAFSVAKTSRPQIQPNPGFLQ  197
+            I++A++     LVHC  GVSRSAS VI + M E   + D A+   K  R   +PNP F++
+Sbjct  405  ISKAKKHGSKCLVHCKMGVSRSASTVIAYAMKEYGWNLDRAYDYVKERRTVTKPNPSFMR  464
+
+Query  198  QLKTY  202
+            QL+ Y
+Sbjct  465  QLEEY  469
+
+
+> XP_006533292.1 PREDICTED: protein phosphatase Slingshot homolog 
+2 isoform X3 [Mus musculus]
+Length=1430
+
+ Score = 103 bits (256),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 46/125 (37%), Positives = 74/125 (59%), Gaps = 0/125 (0%)
+
+Query  78   ASQDAAHDIDTLKKLKVTHVLNVAFGVENVFPELFTYKTVSMLDLPETDITAYFPECFEF  137
+             S+  A +++ L+   V ++LNV   ++N FP +F Y  + + D   TD+ AY+ + ++F
+Sbjct  325  GSEWNASNLEDLQNRGVRYILNVTREIDNFFPGVFEYHNIRVYDEEATDLLAYWNDTYKF  384
+
+Query  138  ITQARQQDGVVLVHCNAGVSRSASVVIGFLMSELKMSFDEAFSVAKTSRPQIQPNPGFLQ  197
+            I++A++     LVHC  GVSRSAS VI + M E   + D A+   K  R   +PNP F++
+Sbjct  385  ISKAKKHGSKCLVHCKMGVSRSASTVIAYAMKEYGWNLDRAYDYVKERRTVTKPNPSFMR  444
+
+Query  198  QLKTY  202
+            QL+ Y
+Sbjct  445  QLEEY  449
+
+
+> XP_006534369.1 PREDICTED: dual specificity protein phosphatase 
+3 isoform X2 [Mus musculus]
+Length=211
+
+ Score = 84.7 bits (208),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 56/145 (39%), Positives = 75/145 (52%), Gaps = 13/145 (9%)
+
+Query  69   ITPFLLLCAASQDAAHDIDTLKKLKVTHVLNVAFGVE----NVFPELF-----TYKTVSM  119
+            + P + +  AS   A DI  L+KL +THVLN A G      N     +     TY  +  
+Sbjct  33   VVPRVYVGNAS--VAQDITQLQKLGITHVLNAAEGRSFMHVNTSASFYEDSGITYLGIKA  90
+
+Query  120  LDLPETDITAYFPECFEFITQA-RQQDGVVLVHCNAGVSRSASVVIGFLMSELKMSFDEA  178
+             D  E +++AYF    +FI QA   ++G VLVHC  G SRS ++VI +LM   KM    A
+Sbjct  91   NDTQEFNLSAYFERATDFIDQALAHKNGRVLVHCREGYSRSPTLVIAYLMMRQKMDVKSA  150
+
+Query  179  FSVAKTSRPQIQPNPGFLQQLKTYN  203
+             S  + +R +I PN GFL QL   N
+Sbjct  151  LSTVRQNR-EIGPNDGFLAQLCQLN  174
+
+
+> XP_006534368.1 PREDICTED: dual specificity protein phosphatase 
+3 isoform X1 [Mus musculus]
+Length=236
+
+ Score = 84.3 bits (207),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 56/145 (39%), Positives = 75/145 (52%), Gaps = 13/145 (9%)
+
+Query  69   ITPFLLLCAASQDAAHDIDTLKKLKVTHVLNVAFGVE----NVFPELF-----TYKTVSM  119
+            + P + +  AS   A DI  L+KL +THVLN A G      N     +     TY  +  
+Sbjct  58   VVPRVYVGNAS--VAQDITQLQKLGITHVLNAAEGRSFMHVNTSASFYEDSGITYLGIKA  115
+
+Query  120  LDLPETDITAYFPECFEFITQA-RQQDGVVLVHCNAGVSRSASVVIGFLMSELKMSFDEA  178
+             D  E +++AYF    +FI QA   ++G VLVHC  G SRS ++VI +LM   KM    A
+Sbjct  116  NDTQEFNLSAYFERATDFIDQALAHKNGRVLVHCREGYSRSPTLVIAYLMMRQKMDVKSA  175
+
+Query  179  FSVAKTSRPQIQPNPGFLQQLKTYN  203
+             S  + +R +I PN GFL QL   N
+Sbjct  176  LSTVRQNR-EIGPNDGFLAQLCQLN  199
+
+
+> XP_006514936.1 PREDICTED: dual specificity protein phosphatase 
+18 isoform X1 [Mus musculus]
+Length=188
+
+ Score = 82.8 bits (203),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 45/121 (37%), Positives = 67/121 (55%), Gaps = 0/121 (0%)
+
+Query  82   AAHDIDTLKKLKVTHVLNVAFGVENVFPELFTYKTVSMLDLPETDITAYFPECFEFITQA  141
+            AA++   L   ++T V+NV+  V N F E   Y  V ++D P   ++ +F    + I   
+Sbjct  34   AANNKLLLSSNQITTVINVSVEVANTFYEDIQYVQVPVVDAPVARLSNFFDSVADRIHSV  93
+
+Query  142  RQQDGVVLVHCNAGVSRSASVVIGFLMSELKMSFDEAFSVAKTSRPQIQPNPGFLQQLKT  201
+              Q G  L+HC AGVSRSA++ + +LM    MS  +A +  K+ RP I+PN GF +QL  
+Sbjct  94   EMQKGRTLLHCAAGVSRSAALCLAYLMKYHAMSLVDAHTWTKSCRPIIRPNSGFWEQLIH  153
+
+Query  202  Y  202
+            Y
+Sbjct  154  Y  154
+
+
+> XP_006533862.1 PREDICTED: dual specificity protein phosphatase 
+14 isoform X1 [Mus musculus]
+Length=198
+
+ Score = 82.4 bits (202),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 49/134 (37%), Positives = 67/134 (50%), Gaps = 2/134 (1%)
+
+Query  69   ITPFLLLCAASQDAAHDIDTLKKLKVTHVLNVAFGVENVFPELFTYKTVSMLDLPETDIT  128
+            IT  L L  AS   A +   L+   +T V+N    + N     F Y  V + D+P   I 
+Sbjct  30   ITSSLFLGRAS--VASNWHLLQARGITCVINATIEIPNFNWPQFEYVKVPLADIPHAPIR  87
+
+Query  129  AYFPECFEFITQARQQDGVVLVHCNAGVSRSASVVIGFLMSELKMSFDEAFSVAKTSRPQ  188
+             YF    + I    ++ G  LVHC AGVSRSA++ I +LM    +   EA++  K  RP 
+Sbjct  88   LYFDTVADKIHSVSKKHGATLVHCAAGVSRSATLCIAYLMKFHNLCLLEAYNWVKARRPV  147
+
+Query  189  IQPNPGFLQQLKTY  202
+            I+PN GF +QL  Y
+Sbjct  148  IRPNLGFWRQLIDY  161
+
+
+> XP_006533861.1 PREDICTED: dual specificity protein phosphatase 
+14 isoform X1 [Mus musculus]
+Length=198
+
+ Score = 82.4 bits (202),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 49/134 (37%), Positives = 67/134 (50%), Gaps = 2/134 (1%)
+
+Query  69   ITPFLLLCAASQDAAHDIDTLKKLKVTHVLNVAFGVENVFPELFTYKTVSMLDLPETDIT  128
+            IT  L L  AS   A +   L+   +T V+N    + N     F Y  V + D+P   I 
+Sbjct  30   ITSSLFLGRAS--VASNWHLLQARGITCVINATIEIPNFNWPQFEYVKVPLADIPHAPIR  87
+
+Query  129  AYFPECFEFITQARQQDGVVLVHCNAGVSRSASVVIGFLMSELKMSFDEAFSVAKTSRPQ  188
+             YF    + I    ++ G  LVHC AGVSRSA++ I +LM    +   EA++  K  RP 
+Sbjct  88   LYFDTVADKIHSVSKKHGATLVHCAAGVSRSATLCIAYLMKFHNLCLLEAYNWVKARRPV  147
+
+Query  189  IQPNPGFLQQLKTY  202
+            I+PN GF +QL  Y
+Sbjct  148  IRPNLGFWRQLIDY  161
+
+
+> XP_006533860.1 PREDICTED: dual specificity protein phosphatase 
+14 isoform X1 [Mus musculus]
+Length=198
+
+ Score = 82.4 bits (202),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 49/134 (37%), Positives = 67/134 (50%), Gaps = 2/134 (1%)
+
+Query  69   ITPFLLLCAASQDAAHDIDTLKKLKVTHVLNVAFGVENVFPELFTYKTVSMLDLPETDIT  128
+            IT  L L  AS   A +   L+   +T V+N    + N     F Y  V + D+P   I 
+Sbjct  30   ITSSLFLGRAS--VASNWHLLQARGITCVINATIEIPNFNWPQFEYVKVPLADIPHAPIR  87
+
+Query  129  AYFPECFEFITQARQQDGVVLVHCNAGVSRSASVVIGFLMSELKMSFDEAFSVAKTSRPQ  188
+             YF    + I    ++ G  LVHC AGVSRSA++ I +LM    +   EA++  K  RP 
+Sbjct  88   LYFDTVADKIHSVSKKHGATLVHCAAGVSRSATLCIAYLMKFHNLCLLEAYNWVKARRPV  147
+
+Query  189  IQPNPGFLQQLKTY  202
+            I+PN GF +QL  Y
+Sbjct  148  IRPNLGFWRQLIDY  161
+
+
+> XP_006533859.1 PREDICTED: dual specificity protein phosphatase 
+14 isoform X1 [Mus musculus]
+Length=198
+
+ Score = 82.4 bits (202),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 49/134 (37%), Positives = 67/134 (50%), Gaps = 2/134 (1%)
+
+Query  69   ITPFLLLCAASQDAAHDIDTLKKLKVTHVLNVAFGVENVFPELFTYKTVSMLDLPETDIT  128
+            IT  L L  AS   A +   L+   +T V+N    + N     F Y  V + D+P   I 
+Sbjct  30   ITSSLFLGRAS--VASNWHLLQARGITCVINATIEIPNFNWPQFEYVKVPLADIPHAPIR  87
+
+Query  129  AYFPECFEFITQARQQDGVVLVHCNAGVSRSASVVIGFLMSELKMSFDEAFSVAKTSRPQ  188
+             YF    + I    ++ G  LVHC AGVSRSA++ I +LM    +   EA++  K  RP 
+Sbjct  88   LYFDTVADKIHSVSKKHGATLVHCAAGVSRSATLCIAYLMKFHNLCLLEAYNWVKARRPV  147
+
+Query  189  IQPNPGFLQQLKTY  202
+            I+PN GF +QL  Y
+Sbjct  148  IRPNLGFWRQLIDY  161
+
+
+> XP_006497252.1 PREDICTED: dual specificity protein phosphatase 
+10 isoform X1 [Mus musculus]
+Length=483
+
+ Score = 82.0 bits (201),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 53/133 (40%), Positives = 78/133 (59%), Gaps = 4/133 (3%)
+
+Query  69   ITPFLLLCAASQDAAHDIDTLKKLKVTHVLNVAFGVENVFPE--LFTYKTVSMLDLPETD  126
+            I PFL L   ++  A D+DT+++L + +V+NV   +     E  LF YK +   D  + +
+Sbjct  326  ILPFLFL--GNEQDAQDLDTMQRLNIGYVINVTTHLPLYHYEKGLFNYKRLPATDSNKQN  383
+
+Query  127  ITAYFPECFEFITQARQQDGVVLVHCNAGVSRSASVVIGFLMSELKMSFDEAFSVAKTSR  186
+            +  YF E FEFI +A Q    +L+HC AGVSRSA++VI +LM   +M+  +A+   K  R
+Sbjct  384  LRQYFEEAFEFIEEAHQCGKGLLIHCQAGVSRSATIVIAYLMKHTRMTMTDAYKFVKGKR  443
+
+Query  187  PQIQPNPGFLQQL  199
+            P I PN  F+ QL
+Sbjct  444  PIISPNLNFMGQL  456
+
+
+> XP_006497251.1 PREDICTED: dual specificity protein phosphatase 
+10 isoform X1 [Mus musculus]
+Length=483
+
+ Score = 82.0 bits (201),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 53/133 (40%), Positives = 78/133 (59%), Gaps = 4/133 (3%)
+
+Query  69   ITPFLLLCAASQDAAHDIDTLKKLKVTHVLNVAFGVENVFPE--LFTYKTVSMLDLPETD  126
+            I PFL L   ++  A D+DT+++L + +V+NV   +     E  LF YK +   D  + +
+Sbjct  326  ILPFLFL--GNEQDAQDLDTMQRLNIGYVINVTTHLPLYHYEKGLFNYKRLPATDSNKQN  383
+
+Query  127  ITAYFPECFEFITQARQQDGVVLVHCNAGVSRSASVVIGFLMSELKMSFDEAFSVAKTSR  186
+            +  YF E FEFI +A Q    +L+HC AGVSRSA++VI +LM   +M+  +A+   K  R
+Sbjct  384  LRQYFEEAFEFIEEAHQCGKGLLIHCQAGVSRSATIVIAYLMKHTRMTMTDAYKFVKGKR  443
+
+Query  187  PQIQPNPGFLQQL  199
+            P I PN  F+ QL
+Sbjct  444  PIISPNLNFMGQL  456
+
+
+> XP_006497105.1 PREDICTED: dual specificity protein phosphatase 
+12 isoform X1 [Mus musculus]
+Length=214
+
+ Score = 35.0 bits (79),  Expect = 0.010, Method: Compositional matrix adjust.
+ Identities = 13/40 (33%), Positives = 26/40 (65%), Gaps = 0/40 (0%)
+
+Query  164  IGFLMSELKMSFDEAFSVAKTSRPQIQPNPGFLQQLKTYN  203
+            + F+M   +++F++A+ + +T +P+ + N GF  QLK Y 
+Sbjct  1    MAFIMKTDQLTFEKAYDILRTVKPEAKVNEGFEWQLKLYE  40
+
+
+> XP_006497197.1 PREDICTED: tyrosine-protein phosphatase non-receptor 
+type 14 isoform X2 [Mus musculus]
+Length=1090
+
+ Score = 29.3 bits (64),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 11/27 (41%), Positives = 18/27 (67%), Gaps = 0/27 (0%)
+
+Query  142   RQQDGVVLVHCNAGVSRSASVVIGFLM  168
+             R +   ++VHC+AGV R+  V++  LM
+Sbjct  1014  RTRHPPIVVHCSAGVGRTGVVILSELM  1040
+
+
+> XP_006497196.1 PREDICTED: tyrosine-protein phosphatase non-receptor 
+type 14 isoform X1 [Mus musculus]
+Length=1189
+
+ Score = 28.9 bits (63),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 11/27 (41%), Positives = 18/27 (67%), Gaps = 0/27 (0%)
+
+Query  142   RQQDGVVLVHCNAGVSRSASVVIGFLM  168
+             R +   ++VHC+AGV R+  V++  LM
+Sbjct  1113  RTRHPPIVVHCSAGVGRTGVVILSELM  1139
+
+
+> XP_006497194.1 PREDICTED: tyrosine-protein phosphatase non-receptor 
+type 14 isoform X1 [Mus musculus]
+Length=1189
+
+ Score = 28.9 bits (63),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 11/27 (41%), Positives = 18/27 (67%), Gaps = 0/27 (0%)
+
+Query  142   RQQDGVVLVHCNAGVSRSASVVIGFLM  168
+             R +   ++VHC+AGV R+  V++  LM
+Sbjct  1113  RTRHPPIVVHCSAGVGRTGVVILSELM  1139
+
+
+> XP_006497193.1 PREDICTED: tyrosine-protein phosphatase non-receptor 
+type 14 isoform X1 [Mus musculus]
+Length=1189
+
+ Score = 28.9 bits (63),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 11/27 (41%), Positives = 18/27 (67%), Gaps = 0/27 (0%)
+
+Query  142   RQQDGVVLVHCNAGVSRSASVVIGFLM  168
+             R +   ++VHC+AGV R+  V++  LM
+Sbjct  1113  RTRHPPIVVHCSAGVGRTGVVILSELM  1139
+
+
+> XP_006497192.1 PREDICTED: tyrosine-protein phosphatase non-receptor 
+type 14 isoform X1 [Mus musculus]
+Length=1189
+
+ Score = 28.9 bits (63),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 11/27 (41%), Positives = 18/27 (67%), Gaps = 0/27 (0%)
+
+Query  142   RQQDGVVLVHCNAGVSRSASVVIGFLM  168
+             R +   ++VHC+AGV R+  V++  LM
+Sbjct  1113  RTRHPPIVVHCSAGVGRTGVVILSELM  1139
+
+
+> NP_001158127.1 Fc fragment of IgG binding protein-like precursor 
+[Mus musculus]
+Length=2581
+
+ Score = 28.5 bits (62),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 23/76 (30%), Positives = 36/76 (47%), Gaps = 15/76 (20%)
+
+Query  84    HDIDTLKKLKVTHVLNVAF--GVENVFPELFTYKTVSMLDLPETDITAYFPECFEFITQA  141
+             HD D     K+   +++ F  G+  V P   T+     +DLP T +T+        ++  
+Sbjct  2461  HDND-----KIVSKVHIFFQDGMVTVIPSKGTWVNGLRVDLPATVLTS--------VSVR  2507
+
+Query  142   RQQDGVVLVHCNAGVS  157
+             R  DG +LVH  AGV+
+Sbjct  2508  RMPDGSMLVHQKAGVT  2523
+
+
+> NP_001098530.1 vomeronasal 2, receptor 63 precursor [Mus musculus]
+Length=859
+
+ Score = 26.9 bits (58),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 15/44 (34%), Positives = 24/44 (55%), Gaps = 1/44 (2%)
+
+Query  137  FITQ-ARQQDGVVLVHCNAGVSRSASVVIGFLMSELKMSFDEAF  179
+            FI Q A  + G +++ CN G + +   V+G+L S    S+  AF
+Sbjct  725  FIDQNAHVEHGHIIIMCNKGSAVAFHCVLGYLCSLALGSYTMAF  768
+
+
+> NP_808432.2 vomeronasal 2, receptor 57 precursor [Mus musculus]
+Length=863
+
+ Score = 26.9 bits (58),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 15/44 (34%), Positives = 24/44 (55%), Gaps = 1/44 (2%)
+
+Query  137  FITQ-ARQQDGVVLVHCNAGVSRSASVVIGFLMSELKMSFDEAF  179
+            FI Q A  + G +++ CN G + +   V+G+L S    S+  AF
+Sbjct  725  FIDQNAHVEHGHIIIMCNKGSAVAFHCVLGYLCSLALGSYTMAF  768
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.133    0.379    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 868960176
+
+
+  Database: mouse.1.protein.faa
+    Posted date:  Oct 5, 2017  11:46 PM
+  Number of letters in database: 8,844,069
+  Number of sequences in database:  11,672
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
