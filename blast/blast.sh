@@ -11,5 +11,5 @@ cp /opt/repo/nbt/blast/* .
 ./blastp -query zebrafish.top.faa -db mouse.1.protein.faa -num_threads 4 -out zebrafish.x.mouse
 
 tar -zcvf job-output.tar.gz zebrafish.x.mouse
-cp job-output.tar.gz /sharedvol/.
+cp job-output.tar.gz /sharedvol/$(hostname)-job-output.tar.gz
 
